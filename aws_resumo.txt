@@ -1,1 +1,17 @@
-Certificação AWS - Practitioner  
+#Planejamento
+  *Curso teórico
+  *Simulados
+
+#Certificação AWS - Practitioner  
+
+  *Conceitos de Cloud
+
+  *Instancias EC2
+
+  *Storage S3
+
+  *IAM
+
+  *Billing e Pricing
+
+  *Security
