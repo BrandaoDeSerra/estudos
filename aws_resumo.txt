@@ -5,9 +5,36 @@
 #Certificação AWS - Practitioner  
 
   *Conceitos de Cloud
-
+    -Vantagens
+      > capital expense x variable expense
+	  > economies of scale
+	  > guessing capacity
+	  > speed and agility
+	  > maintaining data center
+	  > Live minutos
+	  
+	  *Agilidade
+      *Elasticidade
+      *Economia de custo
+      *Implantação global em questão de minutos
+	-Tipos de Cloud
+      > IAAS
+      > PAAS
+      >	SAAS
+	-Cloud deployment
+	  >Public Cloud
+      >Hybrid
+	  >Private Cloud
+	-AWS Services
+	  >Mais de 200 serviços
+	-AWS Global Infrastructure
+	  >Regions
+	  >Availability Zones
+	-Free tier - 12 Meses
+	  
   *Instancias EC2
-
+    -Máquinas virtuais
+	
   *Storage S3
 
   *IAM
