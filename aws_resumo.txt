@@ -52,9 +52,21 @@
 	  > $$   Reserved [ Standard(no upgrade) / Convertable (Upgrade) ]
 	  > $ Spot Oferta
 	  > Dedicated Host [Hardware] { on demand / Reserved }
-  	
-  *Storage S3
-
+    -Load Balance
+	  > *Application
+	  > Network
+	  > Classic
+	-Auto Sacaling
+      > All time	
+	  > Scale manually
+	  > schedule
+	  > demand
+	  > predictive
+  *Storage S3 Simple Storage Service
+     -Bucket - url
+     -Object base - files (Não é um bloco para instalar aplicativos) 
+     -Storage Classes
+ 	 
   *IAM
 
   *Billing e Pricing
