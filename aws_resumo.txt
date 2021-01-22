@@ -31,10 +31,28 @@
 	  >Regions
 	  >Availability Zones
 	-Free tier - 12 Meses
-	  
-  *Instancias EC2
-    -Máquinas virtuais
 	
+  *Instancias EC2 - Elastic Compute 2
+    -Máquinas virtuais
+      >Virtualização : Hypervisor > hardware
+	-Types EC2
+	  > Storage Optimized
+      > General Purpose
+      > Compute Optimized
+      > Memory Optimized
+      > Accelerated Computing
+      > Storage Optimized
+	-Volume EBS - Elastc Block Store - CAmado sobre o Hardware	
+	  > SSD Backed Provisioned IOPS (Solid State Drive)
+	  > SSD Backed General Prupose
+	  > HDD Backed Throughput optimazed (Hard Disk Drive)
+ 	  > HDD Backed Cold	  
+	-EC2 Princing
+      > $$$$ On Demand 
+	  > $$   Reserved [ Standard(no upgrade) / Convertable (Upgrade) ]
+	  > $ Spot Oferta
+	  > Dedicated Host [Hardware] { on demand / Reserved }
+  	
   *Storage S3
 
   *IAM
