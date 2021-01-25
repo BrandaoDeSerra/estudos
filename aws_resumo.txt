@@ -65,8 +65,19 @@
   *Storage S3 Simple Storage Service
      -Bucket - url
      -Object base - files (Não é um bloco para instalar aplicativos) 
-     -Storage Classes
- 	 
+     -Paga pela tranferencia e pelo armazenamento
+	 -Storage Classes
+ 	   > Standard *mais caro
+	   > Intellingent Teiring 
+	   > Standard-Infrequent Access (S3 Standard – IA)
+	   > S3 One Zone-Infrequent Access (S3 One Zone – IA)
+	   > Glacier
+	   > Glacier deep archive
+     -CloudFront
+	   >CDN (TTL)
+	    .Edge Location
+        .Origin
+   		.Distributon
   *IAM
 
   *Billing e Pricing
