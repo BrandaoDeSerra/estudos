@@ -1,6 +1,7 @@
 #Planejamento
   *Curso teórico
   *Simulados
+https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aws-certified-cloud-practitioner-clf-c01-eede914a8ba9
 
 #Certificação AWS - Practitioner  
 
@@ -78,8 +79,40 @@
 	    .Edge Location
         .Origin
    		.Distributon
-  *IAM
-
-  *Billing e Pricing
-
+  *IAM - Identity Access Management (IAM)
+     - Grupos
+	 - usuários
+	 - políticas
+  *Billing e Pricing (cobrança por Segundos)
+     > Princípios
+	   - Pay as you go
+	   - Use
+	   - less/more
+	   - reserved less
+     > Capex vs Opex	
+	   > Capital Expenditure
+	   > Operational Expenditure
+	 > 3 tipos / bill
+	   > Compute
+	   > Storage
+	   > Transfer out
+	 > Budget vs Cost Explorer
+	   >Budget(orçamento) - Alertas - Antes
+	   >Cost Explorer - Depois - Relatório, detalhamento do gasto
+	 > Plans - suporte plans
+	   -Basic
+	   -Developer
+	   -Business
+	   -Enterprise     	 
+     > Pricing Calculator	 
   *Security
+    > Responsabilidade da AWS e Client
+	> WAF - Web Aplication Firewall
+	> Shield - Script ou DDOS(Distributed Denial of Service)
+	> AWS Security Services
+	  -Inspector - Agente instalado nas EC2 coleta dados
+	  -Trusted advisor - real time analisa estrutura e melhor praticas
+	  -Cloud trail - api calls / console
+	> Athena(SQL busca) vs Macie (PII) - dados armazenados  
+
+ 
