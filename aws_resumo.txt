@@ -19,9 +19,9 @@ https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aw
       *Economia de custo
       *Implantação global em questão de minutos
 	-Tipos de Cloud
-      > IAAS
-      > PAAS
-      >	SAAS
+        > IAAS -> Infraestrutura como serviço
+        > PAAS -> Plataforma como serviço
+        > SAAS -> Software como serviço 
 	-Cloud deployment
 	  >Public Cloud
       >Hybrid
