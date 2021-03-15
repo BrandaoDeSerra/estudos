@@ -1,0 +1,245 @@
+﻿"Ciência de Dados"
+
+Cientista de Dados : (perfil, skill)
+ -Infraestrutura hiperconvergente
+ -Volume de dados ao alcance
+ -Multidisciplinar ( Negócio, programação, matematia, Tecnicas, ferramentas ) - Geramos Valor
+ -IA, Machine Learning, Deep learning 
+ -Desafios 
+
+*referências*
+Mario Filho
+Data Hackers
+Kaggle
+
+Não aprenda *só*, entre em grupos, entre em uma empresa que forme profissionais.
+
+-KDD : Knowledge Discovery in Databases [é um processo]
+-Mineração de dados                     [é uma fase no processo de descoberta de conhecimento] 
+
+3 pilares 
+  * Construir uma validação confiável
+  * melhor representação dos padrões atraves do feature engineering 
+  * combinar modelos para ter uma solução final mais poderosa 
+
+feature engineering : é o processo de usar o conhecimento de domínio para extrair recursos de dados brutos por 
+                      meio de técnicas de mineração de dados. Esses recursos podem ser usados ​​para melhorar o 
+					  desempenho dos algoritmos de aprendizado de máquina
+
+- big data 5Vs
+  *Volume
+  *Velocidade
+  *Variedade
+  *VeracidadeS
+  *Valor
+  
+tipos de dados
+ - Dados estruturados: são armazenados em bancos de dados, sequenciados em tabelas;
+ - Dados semi-estruturados: acompanham padrões heterogêneos, são mais difíceis de serem identificados pois podem seguir diversos padrões;
+ - Dados não estruturados: são uma mistura de dados com fontes diversificadas como imagens, áudios e documentos online.
+
+> Qualidade dos Dados !!!!
+
+Big Data > GCP
+
+Cloud Dataflow  
+Cloud Dataprep
+Cloud bigquery
+
+-------------------------------------------------------------------------------------------------------
+ 
+#Estatistica('Interpretação' / 'escolhas' / 'Avaliação') _
+  - Descritiva(Organizar dados)                           |
+  - Probabilistica(Analisar)                              |_ "Observação" e "Experimento"
+  - Inferência(Respostas)                                _|
+
+  *Observação - Não afeta os dados(não tem relação de causa efeito)
+  *Experimento - Interferência nos dados(Relação causa efeito)
+  
+#Variáveis
+  -Quantitativa > numérica (Contínuas valores reais / Discreta numero fixo ou intervalo)
+  -Qualitativa  > Categórica (Nomenais e Ordinais)
+ 
+#Amostra - 'Parte de uma População' *enviesada - margem de erro
+  > Aleatória Simples
+    - Com reposição - Volta para população podendo ser selecionado novamente
+	- Sem reposição - não tem chances de ser selecionado novamente
+  > Estratificada
+    - Elementos separados por status / classificação
+  > Sistemática
+    -intervalo sistêmico 
+  
+#Medidas de "Centralidade" e "Variabilidade"
+
+ > Centralidade
+   - Média   > A soma dividido pelo total
+   - Mediana > Valor do meio ou a média dos valores do meio
+   - Moda    > O que mais ocorre, pode ter mais de uma
+   
+ > Variabilidade
+   - Variância     > Regularidade dos dados em relacção a média
+   - Desvio padrão > Distancia que os valores estão da media
+   - Amplitude     > Diferença entre o maior e menor valor da amostra
+   - Quartis       > Separa em percentual de varição
+   
+#Probabilidade > 0 a 1
+  - Experimento     > O que está sendo estudado.
+  - Espaço amostral > Todas as posibilidades.
+  - Evento          > O que aconteceu.
+     * Eventos Excludentes 
+	 * Eventos Não Excludentes
+     * Eventos Dependentes
+     * Eventos independentes 	 
+
+#Distribuições de probabilidade - uso na inferência
+                                - quando existe um padrão
+  - Usado na Teoria da probabilidade
+  - Comportamento de dados Aleatório
+  
+  *Distribuição Binomial - Número fixo de experimento
+                         - Cada experimento so pode ter 2 resultados (true ou false)
+                         - A propabilidade de sucesso por evento tem que ser a mesma
+                         - Os exeperimentos são independentes, não pode influenciar no proximo evento
+  *Distribuição Normal - a Média e o Desvio padrão é conhecido
+                       - um histograma, mostra se os dados estão normalmente distribuidos
+  *T de Student (Amostra pequena)
+  *Distribuição de poisson - mede a probabilidade de ocorrencia em um
+                             intervalo de tempo, em vez de um certo
+                             numero de experimento
+  *Distribuição qui-quadrado -
+  *Distribuição Anova - Análise de variância
+
+#Estatística Paramétrica
+#Estatística Não-Paramétrica   
+
+#Intervalo de confiança ( 'AMOSTRA' ) 
+   - Para a média
+   - Para a Proporção
+
+#Teste de Hipótese 
+  .Alfa
+  .Valor-p
+------------------------------------
+Correlação e Regrassão Linear Simples e multipla
+             Regressão Logística Simples e multipla
+  
+  *Correlação(direção e força entre as variáveis) entre 1 e -1
+
+*EDA* - Analise Exploratorio de dados -*-*-*-*-*-*-*-*-*-*-*-
+  -Buscar informações ocultas sobre os seus dados:
+     *Variação dos dados
+     *Anomalias
+     *Distibuição dos dados
+     *Tendências
+     *Padrões
+     *Relações
+  -Produção de Graficos ajuda a mostrar a analise
+
+#Séries Temporais
+  - Comportamento de 'uma variável' contínua em um intervalo de tempo
+  - Coleta é feita de forma regular
+  - a Ordem é dos dados é uma premissa
+  - Intervalo sempre o mesmo - dia, hora , min ...
+
+   -Série Discreta
+   -Série Contínua
+
+  Porque analisar séries:
+  * Explicação
+  * Previsão
+  * Controle
+  ** Não busca relação causa efeito
+
+  Tipos:
+   -> Estacionárias : estão em torno de uma media - ARMA
+   -> Não Estacionárias : ARIMA
+   -> Estocástica : Formula + fator aleatório
+   -> Determinística : formula / função
+
+  Componentes: uma "medida", um "fato" e uma "unidade de tempo"
+   -> Tendência - linear ou exponencial
+   -> Sazonalidade
+   -> Ciclo - aumento ou redução sem um padrão, algo não previsto
+      -> Erro - não é explicado
+   -> Aleatoriedade
+   * fazer uma boa decomposição desses componentes na sua analise.
+
+   ST para ?
+     -Previsão / tendência
+     -Compreender Fenômenos
+
+   Autocorrelação
+
+   Erros - residuais()
+   Metricas
+     - MAE
+     - RMSE
+     - MASE
+     - MAPE
+
+#Machine Learning (Contínuo e mensurável)
+
+  *modelo de aprendizado
+    - Arvore de decisão
+    - Regras
+    - Naive Bayes
+    - Redes Bayesianas
+    - Redes Neurais
+    - Maquina de vetor de suporte
+    - Métodos de grupos
+    - apredizado baseado em instancias
+
+  *Estrutura
+    -Atributos ou dimensões (Colunas)
+      -Classe (Atributo alvo, o que queremos prever) geralmente é o ultimo
+    -Instâncias (linhas)
+    -Relação, conjunto de todos os dados(Tabela )
+  *Tipos e dados
+    -Nominais
+    -Numéricos
+
+  **Tarefas
+    -Classificação -
+    -Regressão -
+    -Agrupamento -
+    -Regras de Associação -
+
+# Metricas de Erros
+  -Matriz de confusão
+  -Mean Erro ME - Média da diferença entre o realizado e o previsto
+  -Mean Absolute Erros MAE
+  -Root Mean Squared Error
+  -Mean percentege Error
+
+#deep Learning
+   - perceptron
+     - Atributos
+     - Pesos
+     - Bias
+     - Função de ativação
+
+#grafos
+ -São pontos que podem ou não estar conectados, exemplos:
+   - conectar pessoas e analise relações
+   - achatar rotas
+   - tráfego de rede
+   - combate a terrorismo
+   - disseminação de doenças - probaboilidade de contágio
+   - analise de redes e midias sociais
+   - acompanhar concorrentes
+   - estudo de moleculas
+ -Elementos basicos de um grafo
+    - vertices -vertices o nodes -> pode conter propriedades
+    - arestas  -edges ou links (Peso : distancia ...) -> pode conter propriedades
+ -Os grafo pode ser direcionado ou não
+ -Adjacencia, verticies ligados por uma aresta
+ - *** GRAU o VERTICE - total de arrestas de um vertice
+     - Grau de Entrada
+     - Grau de Saida
+ -Laço - auto vertice liga ele mesmo
+ -Grafo conexo : todos os Vertices interligados
+ -Caminho : não repete o nó
+ -Desidade: numero de vertices, ligações
+ -Coesão : dependecia de ligações para manter as conexoes
+ -Arvore : CAmimnho unidirecional
+ -Matriz adjacente, armazenar grafos

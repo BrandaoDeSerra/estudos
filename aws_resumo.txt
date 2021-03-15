@@ -1,9 +1,12 @@
+   
+ 
 #Planejamento
   *Curso teórico
   *Simulados
 https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aws-certified-cloud-practitioner-clf-c01-eede914a8ba9
 
-#Certificação AWS - Practitioner  
+
+#Certificação AWS - Practitioner   
 
   *Conceitos de Cloud
     -Vantagens
@@ -18,6 +21,7 @@ https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aw
       *Elasticidade
       *Economia de custo
       *Implantação global em questão de minutos
+	  
 	-Tipos de Cloud
         > IAAS -> Infraestrutura como serviço
         > PAAS -> Plataforma como serviço
