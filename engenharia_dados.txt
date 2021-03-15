@@ -1,0 +1,37 @@
+Engenheiro de dados 
+
+"É o profissional que desenvolve e opera e mantém estruturas de
+dados complexas e heterogêneas sendo o responsável pela segurança 
+integridade disponibilidade e confiabilidade desses dados"
+
+
+  *Responsável por : 
+  -Estruturas de dados da empresa.
+    -Manter 
+      .Disponibilidade
+	  .Confiabilidade
+	  .Segurança
+	  .Planejamento
+	  .monitoramento
+	-Desenvolver
+	  .DW data wherehouses
+	  .data lakes
+	  .Processos de análises batch
+	  .Streaming
+	  .Processos de ETL e ELT
+	-Testar  
+	  .Performance
+	  .Requisitos Funcionais
+	  .Requisitos de governança de dados - Evitar o data swamp 
+	  .Segurança
+    -Consolidar Extrair/Ingerir 
+	  .DW data wherehouses
+	  .Data lakes -  HDFS	  
+    -Garantia da disponibilide
+	  .Segurança
+	  .Privacidade
+	  .Acesso
+	  .Monitoramento
+	  .Planos de contingência
+  
+    

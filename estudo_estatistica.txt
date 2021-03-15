@@ -1,9 +1,9 @@
 ﻿"Ciência de Dados"
-
-Cientista de Dados : (perfil, skill)
  -Infraestrutura hiperconvergente
  -Volume de dados ao alcance
- -Multidisciplinar ( Negócio, programação, matematia, Tecnicas, ferramentas ) - Geramos Valor
+
+Cientista de Dados : (perfil, skill) "Responsável por extrair valor e conhecimento dos dados"
+ -profissional Multidisciplinar ( Negócio, programação, matematia, Tecnicas, ferramentas ) - Geramos Valor
  -IA, Machine Learning, Deep learning 
  -Desafios 
 
@@ -12,15 +12,15 @@ Mario Filho
 Data Hackers
 Kaggle
 
-Não aprenda *só*, entre em grupos, entre em uma empresa que forme profissionais.
+Não aprenda *só*, entre em grupos, entre em uma empresa referência, que forme profissionais 
 
 -KDD : Knowledge Discovery in Databases [é um processo]
 -Mineração de dados                     [é uma fase no processo de descoberta de conhecimento] 
 
 3 pilares 
   * Construir uma validação confiável
-  * melhor representação dos padrões atraves do feature engineering 
-  * combinar modelos para ter uma solução final mais poderosa 
+  * melhor representação dos padrões atraves do feature engineering (Engenharia de Recursos, usando tecnicas de Mineração de dados )
+  * combinar modelos para ter uma solução final mais poderosa  
 
 feature engineering : é o processo de usar o conhecimento de domínio para extrair recursos de dados brutos por 
                       meio de técnicas de mineração de dados. Esses recursos podem ser usados ​​para melhorar o 
@@ -46,6 +46,7 @@ Cloud Dataflow
 Cloud Dataprep
 Cloud bigquery
 
+Udemy curso "cientista de dados" e "engenheiro de dados"
 -------------------------------------------------------------------------------------------------------
  
 #Estatistica('Interpretação' / 'escolhas' / 'Avaliação') _
