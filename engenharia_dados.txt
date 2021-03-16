@@ -34,4 +34,65 @@ integridade disponibilidade e confiabilidade desses dados"
 	  .Monitoramento
 	  .Planos de contingência
   
+
+ETL : Extract, Transform and Load - Clássico Data Wherehouse
+
+ELT : Extract, Load and Transform - Clássico Data Lake
+
+Metadados - Dados dos dados
+ - Tipo
+ - Precisão
+ - Restrições
+ 
+Conceitos:
+  -Data at rest
+  -Data at wire 
+ 
+sistemas orientados a colunas ou linhas
+  - Coluna - Maior compressão, melhor para leitura
+  - Linha - menor compressão, 
+  
+Modelos de Dados
+  -Operacional (manter Operações) Orientado a Processo
+    -Transacional/OLTP(Online Transaction Processing)
+	-SQL / NoSQL
+  -Analítico (Apoiar a Decisão) Orientado a Negócio
+    -Data wherehouse  
+    -Data lake 
+	-OLAP (Online Analytical Processing)
+	
+Teorema CAP 2/3
+  -Consistência
+  -Disponibilidade
+  -Partição Tolerante a Falhas  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
     

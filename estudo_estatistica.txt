@@ -8,6 +8,7 @@ Cientista de Dados : (perfil, skill) "Responsável por extrair valor e conhecime
  -Desafios 
 
 *referências*
+Fernando Amaral
 Mario Filho
 Data Hackers
 Kaggle
@@ -35,8 +36,8 @@ feature engineering : é o processo de usar o conhecimento de domínio para extr
   
 tipos de dados
  - Dados estruturados: são armazenados em bancos de dados, sequenciados em tabelas;
- - Dados semi-estruturados: acompanham padrões heterogêneos, são mais difíceis de serem identificados pois podem seguir diversos padrões;
- - Dados não estruturados: são uma mistura de dados com fontes diversificadas como imagens, áudios e documentos online.
+ - Dados semi-estruturados: acompanham padrões heterogêneos, são mais difíceis de serem identificados pois podem seguir diversos padrões; json, xml ...
+ - Dados não estruturados: são uma mistura de dados com fontes diversificadas como imagens, áudios e documentos online. Videos, imagens ...
 
 > Qualidade dos Dados !!!!
 
