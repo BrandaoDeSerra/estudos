@@ -45,10 +45,29 @@ Big Data > GCP
 
 Cloud Dataflow  
 Cloud Dataprep
-Cloud bigquery
+Cloud Bigquery
 
 Udemy curso "cientista de dados" e "engenheiro de dados"
 -------------------------------------------------------------------------------------------------------
+Disciplinas  
+  * Limpeza e tratamento de dados
+  * Gráficos, Visualização e dashboards
+  * Estatistica I
+  * Estatistica II
+  * Regressão linear
+  * Regressão Logística
+  * Séries Temporais
+  * Machine learning
+  * Neural Netwotk / deep learning
+  * Grafos
+  * Text Mining e NLP
+  * Banco de dados / SQL
+  * Banco de dados NoSQL
+  * Fundamentos de Gestão de Projetos
+  ** Power BI 
+  ** Tableau
+  ** Big Data
+ 
  
 #Estatistica('Interpretação' / 'escolhas' / 'Avaliação') _
   - Descritiva(Organizar dados)                           |
