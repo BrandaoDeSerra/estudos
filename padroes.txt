@@ -38,9 +38,9 @@ Todos da equipe entendem o problema - o Negócio(Domínio) é o foco
      -TDD
      -Mensage queue
 
-------------------------------------------------------------------------
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-https://www.youtube.com/watch?v=q8d7XNyQfxA
+https://cantodocodigo.wordpress.com/2017/02/15/projeto-de-solid-srp-ocp-lsp-isp-dip-exemplo-em-30-minutos/
 Padrões projeto 
   SOLID - cinco patterns, Independente de linguagem.
 
@@ -58,8 +58,10 @@ Padrões projeto
         Inversão de dependencia, depender da abstração e não de implementação 
 
 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 23 Padrões "GoF" organizados nas suas 3 famílias:
--=-=-=-=-=-=-=
+
 Padrões de criação
   Factory Method
   Abstract Factory
@@ -89,7 +91,8 @@ Padrões comportamentais
   Template Method
   Visitor
   
--=-=-=-=-=-=-=
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 Os padrões GRASP, sigla para General Responsibility Assignment Software Patterns (or Principles), consistem de um conjunto de práticas para atribuição de responsabilidades
 a classes e objetos em projetos orientados a objeto.
 
@@ -103,3 +106,65 @@ Os padrões utilizados pelo GRASP
   Polimorfismo (Polymorphism)
   Variações protegidas (Protected variations)
   Invenção pura (Pure fabrication).
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
+#Arquitetura nuvem
+  
+  Api gateway -> Autenticação(OAuth2 Access) | Cache (Redis) 
+   .Kong
+   .Kubernetes Ingress
+   .Zuul
+   
+  Load Balancer
+   . Ribbon
+   . Kubernetes Balance
+   . API Publisher AWS
+   
+  Service Discovery 
+    .API Microgateway AWS
+    .Eureka
+    .Kubernetes DSN
+  
+  Kubernetes : Orquestração de Contêiner 
+    .POD 
+      .Serviços -> Autorização(OAuth Scopes) | Service Config (Kubernets ConfigMap)
+  	
+  CQRS - Command Query Responsibility Segregation
+   
+  Message Broker
+    . kafka
+    . wso2 message broker
+    . Rabbit
+    . Pub/Sub GCP
+    
+  monitoramento 
+    .ELK Stack - Log / Monitoramento / Analytics  
+   
+  
+  noSQL - MongoDb e RavenDB 
+  cache - Redis (chave/valor) memoria
+  Relacional - Orcale, postgreSQL, MySQL, SQL Server 
+  Storege - S3 aws, Google cloud Storage
+  cluster - HDFS Hadoop Distributed File System (MapReduce e GoogleFS)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+  
