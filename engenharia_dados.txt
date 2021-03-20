@@ -4,7 +4,6 @@ Engenheiro de dados
 dados complexas e heterogêneas sendo o responsável pela segurança 
 integridade disponibilidade e confiabilidade desses dados"
 
-
   *Responsável por : 
   -Estruturas de dados da empresa.
     -Manter 
@@ -65,6 +64,24 @@ Teorema CAP 2/3
   -Consistência
   -Disponibilidade
   -Partição Tolerante a Falhas  
+  
+Modelos dimencionais
+  -Granulidade
+  -Cubos
+  -Drills
+  
+  KPI
+  BSC
+  ETL
+ 
+hadoop e Yarn
+
+sqoop e Hive
+ 
+pig e flume
+
+spark
+
   
   
   

@@ -1,0 +1,105 @@
+#Managent 3.0
+  6 Visões
+    -Energizar pessoas
+    -Empoderar pessoas
+    -Alinhar restrições
+    -Desenvolver competências
+    -Aumentar as estruturas
+    -Melhorar tudo
+
+#Scrum 
+
+#Cultura devops
+
+# DDD - domein driven design (Mindset / abordagem)
+	Porque ? > Gap no software Logica de negócio complexa
+
+	Aplicado para software complexos (Estratégico[princípios e metodologias] e Tático)
+		- Foco nas partes essenciais
+		- Simplifica o problema
+Todos da equipe entendem o problema - o Negócio(Domínio) é o foco
+ .Estratégias 
+   # Ubquitous(Unipresente) Language - Mesma linguagem para todos, equipe junta. -> *Domein Experts
+   # Bounded(Limitado) Context - Mapa - (Core, contexto principal, foco, esfroço maior)
+ .Tecnincas
+   #MicroServices - fronteiras por domínio 
+     -Dominio entity isolado, não pode ter dependencia Externa
+     -DIP - Dependency inversion principle - Abstração interface - Arquitetura cebola
+     -Criar adapatadores
+     -Entidade com negocio contido
+     -Objeto de valore
+     -Encapsulamento
+     -Objeto rico vs Anemico
+     -Estorias do usuario
+     -Testes
+     -Factory
+     -Anti Corruption Layer 
+     -SOLID
+     -TDD
+     -Mensage queue
+
+------------------------------------------------------------------------
+
+https://www.youtube.com/watch?v=q8d7XNyQfxA
+Padrões projeto 
+  SOLID - cinco patterns, Independente de linguagem.
+
+  - S : Single Responsibility Principle - Princípio da Responsabilidade Única
+        A classe to pode ter um, e somente um, motivo para mudar
+	   
+  - O : Open/Closed Principle - Princípio Aberto/Fechado
+        Capacidade de estender o comportamento de uma classe sem ter que modificar
+		gestão de suas propriedades, atibutos outras ações via interface
+  - L : Liskov Substitution Principle - Princípio da Substituição de Liskov
+        As classes derivadas tem que ser substituíves pela suas classes bases 
+  - I : Interface Segregation Principle - Princípio da Segregação
+        Muita interface especifica é melhor que uma genérica
+  - D : Dependency Inversion Principle - Princípio da Inversão de Dependência
+        Inversão de dependencia, depender da abstração e não de implementação 
+
+
+23 Padrões "GoF" organizados nas suas 3 famílias:
+-=-=-=-=-=-=-=
+Padrões de criação
+  Factory Method
+  Abstract Factory
+  Builder
+  Prototype
+  Singleton
+
+Padrões estruturais
+  Adapter
+  Bridge
+  Composite
+  Decorator
+  Façade (ou Facade)
+  Flyweight
+  Proxy
+
+Padrões comportamentais
+  Chain of Responsibility
+  Command
+  Interpreter
+  Iterator
+  Mediator
+  Memento
+  Observer
+  State
+  Strategy
+  Template Method
+  Visitor
+  
+-=-=-=-=-=-=-=
+Os padrões GRASP, sigla para General Responsibility Assignment Software Patterns (or Principles), consistem de um conjunto de práticas para atribuição de responsabilidades
+a classes e objetos em projetos orientados a objeto.
+
+Os padrões utilizados pelo GRASP
+  Controlador (Controller)
+  Criador (Creator)
+  Indireção (Indirection)
+  Especialista na informação (Information expert)
+  Alta coesão (High Cohesion)
+  Baixo acoplamento (Loose coupling)
+  Polimorfismo (Polymorphism)
+  Variações protegidas (Protected variations)
+  Invenção pura (Pure fabrication).

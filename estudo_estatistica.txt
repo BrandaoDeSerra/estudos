@@ -1,6 +1,29 @@
-﻿"Ciência de Dados"
- -Infraestrutura hiperconvergente
- -Volume de dados ao alcance
+﻿Cursos
+ 21h Python para Finanças: Análise de Dados e Machine Learning
+ 42h Formação Cientista de Dados com Python e R
+ 23h Formação Inteligência Artificial e Machine Learning
+ 30h Curso de Machine Learning e Data Science com Python de A a Z
+ 20h Deep Learning com Python
+ 20h Formação Engenheiro de Dados: Domine Big Data!
+ 06h Ecossistema Hadoop com Hive e Impala
+162h
+
+7 >  3h : seg a sex = 12h
+  > 10h : Sab       = 10h 
+  > 08h : Dom       = 08h
+                     ----
+					  32h
+					  
+60 dias : 2 Meses
+
+Edward Snowden 2016   
+ 
+"Ciência de Dados"
+  -Infraestrutura hiperconvergente
+  -Volume de dados ao alcance
+
+Futuro: dificil a IA chegar na criatividade, sentimento (feeling), "O que NÃO é possivel padronizar"
+
 
 Cientista de Dados : (perfil, skill) "Responsável por extrair valor e conhecimento dos dados"
  -profissional Multidisciplinar ( Negócio, programação, matematia, Tecnicas, ferramentas ) - Geramos Valor
@@ -9,9 +32,11 @@ Cientista de Dados : (perfil, skill) "Responsável por extrair valor e conhecime
 
 *referências*
 Fernando Amaral
+Jones Granatyr
 Mario Filho
 Data Hackers
 Kaggle
+https://www.hackerrank.com/
 
 Não aprenda *só*, entre em grupos, entre em uma empresa referência, que forme profissionais 
 
@@ -46,6 +71,24 @@ Big Data > GCP
 Cloud Dataflow  
 Cloud Dataprep
 Cloud Bigquery
+ 
+Power BI (análise visual de dados ) Lider na área (Email corporativo)
+  - Desktop (Ferramenta de construção)
+    > Obter dados 
+	> Modelos
+	> relatorios
+  - Service (Publicação) 
+  - Gateway (Conexão com fontes de dados)
+  - Mobile App
+
+Tableau (análise visual de dados )
+  - Services
+  - Online
+  - Desktop
+    > Conectar - Dados
+	> paineis - Dashboards
+	> Histórias - Apresentação
+
 
 Udemy curso "cientista de dados" e "engenheiro de dados"
 -------------------------------------------------------------------------------------------------------
