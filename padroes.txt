@@ -22,7 +22,7 @@ Todos da equipe entendem o problema - o Negócio(Domínio) é o foco
    # Ubquitous(Unipresente) Language - Mesma linguagem para todos, equipe junta. -> *Domein Experts
    # Bounded(Limitado) Context - Mapa - (Core, contexto principal, foco, esfroço maior)
  .Tecnincas
-   #MicroServices - fronteiras por domínio 
+   #MicroServices - fronteiras por domínio - O verdadeiro desafio da implementação baseada em microsserviços é a comunicação entre eles : Service Mesh
      -Dominio entity isolado, não pode ter dependencia Externa
      -DIP - Dependency inversion principle - Abstração interface - Arquitetura cebola
      -Criar adapatadores
