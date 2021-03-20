@@ -1,9 +1,9 @@
 #Managent 3.0
-  6 Visıes
+  6 Vis√µes
     -Energizar pessoas
     -Empoderar pessoas
-    -Alinhar restriÁıes
-    -Desenvolver competÍncias
+    -Alinhar restri√ß√µes
+    -Desenvolver compet√™ncias
     -Aumentar as estruturas
     -Melhorar tudo
 
@@ -12,19 +12,19 @@
 #Cultura devops
 
 # DDD - domein driven design (Mindset / abordagem)
-	Porque ? > Gap no software Logica de negÛcio complexa
+	Porque ? > Gap no software Logica de neg√≥cio complexa
 
-	Aplicado para software complexos (EstratÈgico[princÌpios e metodologias] e T·tico)
+	Aplicado para software complexos (Estrat√©gico[princ√≠pios e metodologias] e T√°tico)
 		- Foco nas partes essenciais
 		- Simplifica o problema
-Todos da equipe entendem o problema - o NegÛcio(DomÌnio) È o foco
- .EstratÈgias 
+Todos da equipe entendem o problema - o Neg√≥cio(Dom√≠nio) √© o foco
+ .Estrat√©gias 
    # Ubquitous(Unipresente) Language - Mesma linguagem para todos, equipe junta. -> *Domein Experts
-   # Bounded(Limitado) Context - Mapa - (Core, contexto principal, foco, esfroÁo maior)
+   # Bounded(Limitado) Context - Mapa - (Core, contexto principal, foco, esfro√ßo maior)
  .Tecnincas
-   #MicroServices - fronteiras por domÌnio 
-     -Dominio entity isolado, n„o pode ter dependencia Externa
-     -DIP - Dependency inversion principle - AbstraÁ„o interface - Arquitetura cebola
+   #MicroServices - fronteiras por dom√≠nio 
+     -Dominio entity isolado, n√£o pode ter dependencia Externa
+     -DIP - Dependency inversion principle - Abstra√ß√£o interface - Arquitetura cebola
      -Criar adapatadores
      -Entidade com negocio contido
      -Objeto de valore
@@ -41,42 +41,42 @@ Todos da equipe entendem o problema - o NegÛcio(DomÌnio) È o foco
 ------------------------------------------------------------------------
 
 https://www.youtube.com/watch?v=q8d7XNyQfxA
-Padrıes projeto 
+Padr√µes projeto 
   SOLID - cinco patterns, Independente de linguagem.
 
-  - S : Single Responsibility Principle - PrincÌpio da Responsabilidade ⁄nica
+  - S : Single Responsibility Principle - Princ√≠pio da Responsabilidade √önica
         A classe to pode ter um, e somente um, motivo para mudar
 	   
-  - O : Open/Closed Principle - PrincÌpio Aberto/Fechado
+  - O : Open/Closed Principle - Princ√≠pio Aberto/Fechado
         Capacidade de estender o comportamento de uma classe sem ter que modificar
-		gest„o de suas propriedades, atibutos outras aÁıes via interface
-  - L : Liskov Substitution Principle - PrincÌpio da SubstituiÁ„o de Liskov
-        As classes derivadas tem que ser substituÌves pela suas classes bases 
-  - I : Interface Segregation Principle - PrincÌpio da SegregaÁ„o
-        Muita interface especifica È melhor que uma genÈrica
-  - D : Dependency Inversion Principle - PrincÌpio da Invers„o de DependÍncia
-        Invers„o de dependencia, depender da abstraÁ„o e n„o de implementaÁ„o 
+		gest√£o de suas propriedades, atibutos outras a√ß√µes via interface
+  - L : Liskov Substitution Principle - Princ√≠pio da Substitui√ß√£o de Liskov
+        As classes derivadas tem que ser substitu√≠ves pela suas classes bases 
+  - I : Interface Segregation Principle - Princ√≠pio da Segrega√ß√£o
+        Muita interface especifica √© melhor que uma gen√©rica
+  - D : Dependency Inversion Principle - Princ√≠pio da Invers√£o de Depend√™ncia
+        Invers√£o de dependencia, depender da abstra√ß√£o e n√£o de implementa√ß√£o 
 
 
-23 Padrıes "GoF" organizados nas suas 3 famÌlias:
+23 Padr√µes "GoF" organizados nas suas 3 fam√≠lias:
 -=-=-=-=-=-=-=
-Padrıes de criaÁ„o
+Padr√µes de cria√ß√£o
   Factory Method
   Abstract Factory
   Builder
   Prototype
   Singleton
 
-Padrıes estruturais
+Padr√µes estruturais
   Adapter
   Bridge
   Composite
   Decorator
-  FaÁade (ou Facade)
+  Fa√ßade (ou Facade)
   Flyweight
   Proxy
 
-Padrıes comportamentais
+Padr√µes comportamentais
   Chain of Responsibility
   Command
   Interpreter
@@ -90,16 +90,16 @@ Padrıes comportamentais
   Visitor
   
 -=-=-=-=-=-=-=
-Os padrıes GRASP, sigla para General Responsibility Assignment Software Patterns (or Principles), consistem de um conjunto de pr·ticas para atribuiÁ„o de responsabilidades
+Os padr√µes GRASP, sigla para General Responsibility Assignment Software Patterns (or Principles), consistem de um conjunto de pr√°ticas para atribui√ß√£o de responsabilidades
 a classes e objetos em projetos orientados a objeto.
 
-Os padrıes utilizados pelo GRASP
+Os padr√µes utilizados pelo GRASP
   Controlador (Controller)
   Criador (Creator)
-  IndireÁ„o (Indirection)
-  Especialista na informaÁ„o (Information expert)
-  Alta coes„o (High Cohesion)
+  Indire√ß√£o (Indirection)
+  Especialista na informa√ß√£o (Information expert)
+  Alta coes√£o (High Cohesion)
   Baixo acoplamento (Loose coupling)
   Polimorfismo (Polymorphism)
-  VariaÁıes protegidas (Protected variations)
-  InvenÁ„o pura (Pure fabrication).
+  Varia√ß√µes protegidas (Protected variations)
+  Inven√ß√£o pura (Pure fabrication).
