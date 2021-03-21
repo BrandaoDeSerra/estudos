@@ -7,18 +7,90 @@
     -Aumentar as estruturas
     -Melhorar tudo
 
-https://www.youtube.com/watch?v=EdYLDjeurVE
+https://www.youtube.com/watch?v=EdYLDjeurVE Scrum Guide 2020
+https://k21.global/blog/guia-do-scrum-2020-novidades
 #Scrum Novembro 2020 
-  .
-  .
-  .
-  .
-  .
-  .
-  .
-  
-
-#Cultura devops
+    .Scrum requer um "Scrum Master" para promover um ambiente:
+		1 Um "Product Owner" ordena o trabalho para um problema complexo em um "Product Backlog".
+		2 O "Scrum Team" transforma uma seleção do trabalho em um incremento de valor durante um "Sprint".
+		3 O "Scrum Team" e seus stakeholders "inspecionam" os "resultados" e se ajustam para o próximo Sprint.
+		4 Repita 
+	.Teoria do Scrum
+	   Scrum é baseado no empirismo e lean thinking. 
+	   Scrum emprega uma abordagem iterativa e incremental para otimizar a previsibilidade e controlar o risco. 
+	   Scrum combina quatro eventos formais para inspeção e adaptação
+       
+	   1 Transparência : O trabalho deve ser visível tanto para quem executa, quanto para quem recebe o trabalho. 
+       2 Inspeção : Os artefatos e o progresso em direção às metas acordadas devem ser inspecionados com frequência e diligência para detectar variações ou problemas. 
+       3 Adaptação : Scrum Team deve se adaptar no momento em que aprende algo novo por meio da inspeção. Tem quer ser auto-gerenciadas e empoderadas.  	 	
+    .Os Valores do Scrum (Scrum Team)
+       1 Compromisso  : Atingir seus objetivos e suportar uns aos outros
+	   2 Foco : O trabalho da Sprint para fazer o melhor progresso possível em direção a essas metas.
+	   3 Abertura : Sbertos quanto ao trabalho e os desafios.
+	   4 Respeito : Respeitam quanto a serem pessoas capazes e independentes, e são respeitados como tal pelas pessoas com quem trabalham.
+	   5 Coragem : Fazer a coisa certa e trabalhar em problemas difíceis	
+    .Scrum Team (A unidade fundamental do Scrum é um pequeno time de pessoas)
+	    1 Scrum Master  : -Responsável por estabelecer o Scrum conforme definido no Guia do Scrum.
+	                      -Responsável pela eficácia do Scrum Team
+	   					  -Líderes que servem ao Scrum Team, Product Owner e à organização como um todo.
+						   
+ 	    2 Product owner : -Responsável por maximizar o valor do produto resultante do trabalho
+ 	                      -Gerenciamento do Product Backlog 
+ 	 					    ● Desenvolver e comunicar explicitamente a meta do produto;
+                            ● Criar e comunicar claramente os itens do Product Backlog;
+                            ● Ordenar os itens do Product Backlog; e,
+                            ● Garantir que o Product Backlog seja transparente, visível e compreensível
+	    3 Developers : criar qualquer aspecto de um Incremento utilizável a cada Sprint. (back,front,ux,teste,sup,infra...)
+	    [ Dentro de um Scrum Team, não há sub-times ou hierarquias ] 
+	    [ Multifuncionais ]
+	    [ Autogerenciáveis ]
+	    [ 10 a menos pessoas ]
+	    [ Responsável pelas atividades relacionada ao produto desde a colaboração com stakeholder, verificação, manutenção, operação, experimentação, pesquisa, 
+	      desenvolvimento e qualquer outra coisa que possa ser necessária ]
+	    [ Responsável por criar um Incremento valioso e útil a cada Sprint ]
+	.Eventos Scrum 
+	    [ Cada evento no Scrum é uma oportunidade formal para inspecionar e adaptar os artefatos do Scrum]
+	.A Sprint
+	    [ Sprints são o coração do Scrum, onde ideias são transformadas em valor. ]
+	    Durante a Sprint:
+			● Nenhuma mudança é feita que coloque em risco a meta da Sprint;
+			● A qualidade não diminui;
+			● O Product Backlog é refinado conforme necessário; e,
+			● O escopo pode ser esclarecido e renegociado com o Product Owner conforme mais é aprendido.   
+	.Sprint Planning
+	    [ Definir o trabalho a ser realizado na Sprint. Este plano resultante é criado pelo trabalho colaborativo de todo o Scrum Team.]
+	    3 Tópicos:
+			1 Por que esta Sprint é valiosa?
+			2 O que pode ser feito nesta Sprint?
+			3 Como o trabalho escolhido será realizado?
+    .Daily Scrum
+        [ Inspecionar o progresso em direção a Meta da Sprint e adaptar o Sprint Backlog conforme necessário, ajustando o próximo trabalho planejado.]	
+	    [ Evento de 15 minutos , todos os dias no mesmo horário e local]
+        [ Oque estou fazendo, bloqueios e realizado]
+	.Sprint Review 
+	    [ inspecionar o resultado da Sprint e determinar as adaptações futuras.]
+        [ apresenta os resultados de seu trabalho para os principais stakeholders e o progresso em direção a Meta do Produto é discutido.]
+    .Sprint Retrospective
+	    [ planejar maneiras de aumentar a qualidade e a eficácia. ]
+	    [ discute o que deu certo durante a Sprint, quais problemas encontraram e como esses problemas foram (ou não) resolvidos ]
+    .Scrum Artifacts 
+        [ representam trabalho ou valor ]
+	     ● Para o Product Backlog, é a Meta do produto.
+         ● Para o Sprint Backlog, é a Meta da Sprint.
+         ● Para o incremento, é a Definition of Done.
+    .Product Backlog 
+	    [ É uma lista ordenada e emergente do que é necessário para melhorar o produto. É a única fonte de trabalho realizado pelo Scrum Team.]
+       .Compromisso: Meta do Produto : A Meta do Produto descreve um estado futuro do produto que pode servir como um alvo para o Scrum Team planejar.
+	.Sprint Backlog 
+	    É composto pela 
+	      1 Meta da Sprint (por que): o conjunto de itens do Product Backlog selecionados para a Sprint (o que), bem como um plano de ação para entregar o Incremento (como).
+       .Compromisso: Meta da Sprint é criada durante o evento Sprint Planning e então adicionada ao Sprint Backlog. Conforme os Developers trabalham, eles mantêm a Meta da Sprint em mente.
+    .Incremento : Um incremento é um trampolim concreto em direção a Meta do produto. 
+	.Definição de Pronto : A Definição de Pronto é uma descrição formal do estado do Incremento quando ela atende às medidas de qualidade exigidas para o produto.
+	
+#Cultura devops : cultura DevOps favorece a integração da equipe de desenvolvimento com a de operações. 
+                  Nessa cultura, as barreiras se desfazem e as equipes tornam-se uma, compartilhando processos, 
+				  ferramentas, recursos e responsabilidades para alcançarem, juntas, as metas e os objetivos organizacionais.
 
 # DDD - domein driven design (Mindset / abordagem)
 	Porque ? > Gap no software Logica de negócio complexa
@@ -48,73 +120,260 @@ Todos da equipe entendem o problema - o Negócio(Domínio) é o foco
      -Mensage queue
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Java : https://www.devmedia.com.br/encapsulamento-polimorfismo-heranca-em-java/12991
+  -4 pilares OO : Abstração - construir classe apropriada concentrando no que ela importa para a determinada finalidade
+                  Encapsulamento - ocultar os detalhes da implementação e acesso aos atributos -> public get and set : private atributos
+                  Polimorfismo -  Fazer a mesma coisa de forma diferente Exemplo: OperacaoMatematica -> calcular
+			      Herança - A capacidade que uma classe tem de herdar informações de outras classes. Exemplo: ContaPoupanca extends Conta -> this.saldo 
+  Superclasse  -> 1 extends 
+  Extender -> N implements 
+  
+    --------------------------- CLASSE ABSTRATA  ------------------------------
+	abstract class Conta {
+		private double saldo;
+		public void setSaldo(double saldo) { this.saldo = saldo;}
+		public double getSaldo() {return saldo;}
+		
+		public abstract void imprimeExtrato();
+	}
+	
+	public class ContaPoupanca extends Conta {
+		@Override
+		public void imprimeExtrato() {
+			System.out.println("### Extrato da Conta ###");
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/aaaa HH:mm:ss");
+			Date date = new Date();
+			System.out.println("Saldo: "+this.getSaldo());
+		}
+	}
+	--------------------------- ABSTRAÇÃO POLIMORFISMO  ------------------------------
+	public class OperacaoMatematica {
+		public double calcular(double x, double y){ return 0;}
+	}
+    public class Soma extends OperacaoMatematica {
+		public double calcular(double x, double y){
+			return x + y;
+		}
+	}
+	public class Multiplicacao extends OperacaoMatematica {
+		public double calcular(double x, double y){
+			return x * y;
+		}
+	}
 
-https://cantodocodigo.wordpress.com/2017/02/15/projeto-de-solid-srp-ocp-lsp-isp-dip-exemplo-em-30-minutos/
+	public class TestaOperacaoMatematica {
+		//OperacaoMatematica ABSTRAÇÃO POLIMORFISMO 
+		public static void calculaOperacao(OperacaoMatematica o, double x, double y){
+			System.out.println(o.calcular(x, y));
+		}
+
+		public static void main(String[] args) {
+			calculaOperacao (new Soma(), 2500, 200);
+			calculaOperacao (new Multiplicacao(), 10, 10);
+		}
+}
+
+https://www.youtube.com/watch?v=mkx0CdWiPRA
 Padrões projeto 
-  SOLID - cinco patterns, Independente de linguagem.
+  SOLID - cinco patterns, Independente de linguagem.  *desing prematuro(cuidado)
 
   - S : Single Responsibility Principle - Princípio da Responsabilidade Única
-        A classe to pode ter um, e somente um, motivo para mudar
-	   
-  - O : Open/Closed Principle - Princípio Aberto/Fechado
-        Capacidade de estender o comportamento de uma classe sem ter que modificar
-		gestão de suas propriedades, atibutos outras ações via interface
-  - L : Liskov Substitution Principle - Princípio da Substituição de Liskov
-        As classes derivadas tem que ser substituíves pela suas classes bases 
+        A classe so pode ter um, e somente um, motivo para mudar. Entidades Independentes e Isoladas
+		  Facilita : Classe metodos e funções
+		   -Refatoração
+		   -Testes automatizados
+	       -Reaproveitar o Código
+		   -menos bug, mais facil de manter, isolado
+		
+  - O : Open/Closed Principle - Princípio Aberto/Fechado Aberto para Extensões e Fechado para modificações 
+        Capacidade de extender  o comportamento de uma classe sem ter que modificar
+		gestão de suas propriedades, atibutos outras ações comportamento via interface
+		
+  - L : Liskov Substitution Principle - Princípio da Substituição de Liskov - Barbara liskov
+        As classes derivadas tem que ser substituíves pela suas classes bases - calcular a area de retangulo, tambem sabe calcular a area de um quadrado "sub tipo"
+        injeção de dependencia
+		
   - I : Interface Segregation Principle - Princípio da Segregação
         Muita interface especifica é melhor que uma genérica
+		
   - D : Dependency Inversion Principle - Princípio da Inversão de Dependência
         Inversão de dependencia, depender da abstração e não de implementação 
+     
+Exemplos:
 
+  		puclic class Retangulo implementes Area, Diagonal {
+			public double altura;
+			public double largura;	
+			
+			public double setLargura( double largura ){
+				this.largura = largura;
+			}
+			
+			public double setAltura( double altura){
+				this.altura = altura;
+			}
+			
+			@override
+			public double calcularArea( ){
+				return altura*largura;
+			}
+			
+			@override
+			public double obterDiagonal( ){
+				return Math.sqrt((altura*altura) + (largura*largura));
+			}
+		}
+		
+		puclic class Quadrado extends Retangulo {		
+			//super ja tem os atributos
+			
+			@override
+			public double setLargura( double largura ){
+				this.altura = largura;
+				this.largura = largura;
+			}
+			
+			@override
+			public double setAltura( double altura){
+				this.altura = altura;
+				this.largura = altura;	
+			}
+			//super já tem o calculo de area
+		}
+		
+		puclic class Circulo implementes Area, Diametro {
+			public double raio;	
+			
+			@override
+			public double calcularArea( ){
+				return raio*raio*Math.PI;
+			}
+			
+			@override
+			public double obterDiametro( ){
+				return 2*raio;
+			}
+		}
+		
+		puclic interface Area {
+			public double calcularArea( );		
+		}
+		
+		puclic interface Diametro {
+			public double obterDiametro( );		
+		}
+		
+		puclic interface Diagonal {
+			public double obterDiagonal( );		
+		}
+		--------------- uso dos principios anteriores ---------------------
+		puclic clas AreaController {
+			public double calculoDeAreas( Arraylist<Area> areas){
+				double valorArea = 0;
+				for Area area : areas{
+					valorArea = area.calcularArea();					
+				}
+			};		
+		}    
+		-------------------------------------------------------------------
+		interface ProductRepo {
+			Product getById(String productId);
+		}
 
+		// low level class depends on abstraction
+		class SqlProductRepo implements ProductRepo {
+			@Override
+			public Product getById(String productId) { /* todo */ }
+		}
+
+		class MongoProductRepo implements ProductRepo {
+			@Override
+			public Product getById(String productId) { /* todo */ }
+		}
+
+		class ProductRepoFactory {
+			public static ProductRepo create(String type) {
+				if (type.equals(RepoType.NOSQL)) {
+					return new MongoProductRepo();
+				}
+				return new SqlProductRepo();
+			}
+		}
+	
+		class PaymentProcessor {
+			public void pay(String productId) {
+				ProductRepo repo = ProductRepoFactory.create(RepoType.NOSQL); //Abstração 
+				Product product = repo.getById(productId);
+				this.processPayment(product);
+			}
+		}
+         
+
+		
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software#:~:text=De%20acordo%20com%20o%20livro%3A%20%22Padr%C3%B5es%20de%20Projeto%3A%20solu%C3%A7%C3%B5es,s%C3%A3o%20divididos%20em%2024%20tipos.
+26 Padrões "GoF" organizados nas suas 3 famílias:
 
-23 Padrões "GoF" organizados nas suas 3 famílias:
+  Padrões de criação
+	Abstract Factory
+	Object pool
+	Builder
+	Factory Method
+	Prototype
+	Singleton
+  Padrões estruturais
+	Private class data
+	Adapter
+	Bridge
+	Composite
+	Decorator
+	Façade (ou Facade)
+	Business Delegate
+	Flyweight
+	Proxy
+  Padrões comportamentais[3]
+	Chain of Responsibility
+	Command
+	Interpreter
+	Iterator
+	Mediator
+	Memento
+	Observer
+	State
+	Strategy - Open/Closed Principle do SOLID    
+	Template Method
+	Visitor
 
-Padrões de criação
-  Factory Method
-  Abstract Factory
-  Builder
-  Prototype
-  Singleton
 
-Padrões estruturais
-  Adapter
-  Bridge
-  Composite
-  Decorator
-  Façade (ou Facade)
-  Flyweight
-  Proxy
-
-Padrões comportamentais
-  Chain of Responsibility
-  Command
-  Interpreter
-  Iterator
-  Mediator
-  Memento
-  Observer
-  State
-  Strategy
-  Template Method
-  Visitor
-  
+Padrões arquiteturais
+	Interceptor
+	Mvc (Model View Controler)
+	Mvvm (Model View ViewModel)
+	Mvp (Model View Presenter)
+	n-tier (Arquitetura multicamada)
+	Specification
+	Publish–subscribe
+	Inversion of control (Inversão de controle)
+	Dependency Injection (Injeção de dependência)
+	Intercepting filter
+	Lazy loading
+	Mock object (objeto mock) 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 Os padrões GRASP, sigla para General Responsibility Assignment Software Patterns (or Principles), consistem de um conjunto de práticas para atribuição de responsabilidades
 a classes e objetos em projetos orientados a objeto.
 
-Os padrões utilizados pelo GRASP
-  Controlador (Controller)
-  Criador (Creator)
-  Indireção (Indirection)
-  Especialista na informação (Information expert)
-  Alta coesão (High Cohesion)
-  Baixo acoplamento (Loose coupling)
-  Polimorfismo (Polymorphism)
-  Variações protegidas (Protected variations)
-  Invenção pura (Pure fabrication).
+	Padrões Básicos:
+		Information Expert (ver Especialista na Informação);
+		Creator (ver Factory Method);
+		High Cohesion (ver Coesão);
+		Low Coupling(ver Acoplamento);
+		Controller(ver Model-view-controller).
+	Padrões Avançados:
+		Polymorphism (ver Polimorfismo);
+		Pure Fabrication;
+		Indirection (ver Indireção);
+		Protected Variations (ver Variações Protegidas).
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
 #Arquitetura nuvem
