@@ -24,19 +24,19 @@ Edward Snowden 2016
 
 Futuro: dificil a IA chegar na criatividade, sentimento (feeling), "O que NÃO é possivel padronizar"
 
-
 Cientista de Dados : (perfil, skill) "Responsável por extrair valor e conhecimento dos dados"
  -profissional Multidisciplinar ( Negócio, programação, matematia, Tecnicas, ferramentas ) - Geramos Valor
  -IA, Machine Learning, Deep learning 
  -Desafios 
 
 *referências*
-Fernando Amaral
-Jones Granatyr
-Mario Filho
-Data Hackers
-Kaggle
-https://www.hackerrank.com/
+ Fernando Amaral
+ Jones Granatyr
+ Mario Filho
+ Data Hackers
+ Kaggle
+ https://www.hackerrank.com/
+
 
 Não aprenda *só*, entre em grupos, entre em uma empresa referência, que forme profissionais 
 

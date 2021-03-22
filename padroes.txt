@@ -9,7 +9,7 @@
 
 https://www.youtube.com/watch?v=EdYLDjeurVE Scrum Guide 2020
 https://k21.global/blog/guia-do-scrum-2020-novidades
-#Scrum Novembro 2020 
+#SCRUM Novembro 2020 
     .Scrum requer um "Scrum Master" para promover um ambiente:
 		1 Um "Product Owner" ordena o trabalho para um problema complexo em um "Product Backlog".
 		2 O "Scrum Team" transforma uma seleção do trabalho em um incremento de valor durante um "Sprint".
@@ -91,11 +91,11 @@ https://k21.global/blog/guia-do-scrum-2020-novidades
     .Incremento : Um incremento é um trampolim concreto em direção a Meta do produto. 
 	.Definição de Pronto : A Definição de Pronto é uma descrição formal do estado do Incremento quando ela atende às medidas de qualidade exigidas para o produto.
 	
-#Cultura devops : cultura DevOps favorece a integração da equipe de desenvolvimento com a de operações. 
+#CULTURA DEVOPS : cultura DevOps favorece a integração da equipe de desenvolvimento com a de operações. 
                   Nessa cultura, as barreiras se desfazem e as equipes tornam-se uma, compartilhando processos, 
 				  ferramentas, recursos e responsabilidades para alcançarem, juntas, as metas e os objetivos organizacionais.
 
-# DDD - domein driven design (Mindset / abordagem)
+#DDD - domein driven design (Mindset / abordagem)
 	Porque ? > Gap no software Logica de negócio complexa
 
 	Aplicado para software complexos (Estratégico[princípios e metodologias] e Tático)
@@ -122,6 +122,42 @@ Todos da equipe entendem o problema - o Negócio(Domínio) é o foco
      -TDD
      -Mensage queue
 
+https://www.atlassian.com/br/agile/agile-at-scale/what-is-safe
+SAFe - O Scaled Agile Framework® (SAFe®) é um conjunto de padrões de organização e fluxo de trabalho para implementar práticas ágeis em escala empresarial.
+
+  #Valores
+	- Alinhamento
+	- Qualidade integrada
+	- Transparência
+	- Execução do programa
+	- Liderança
+
+  #Princípios
+    - Levante uma visão econômica
+    - Aplicar o pensamento de sistemas
+    - Assuma a variabilidade; preserve as opções
+    - Crie de maneira incremental com ciclos rápidos e integrados de aprendizado
+	- Marcos base na avaliação do objetivo de sistemas de trabalho
+	- Visualize e limite o Trabalho em processo (WIP) reduza o tamanho dos lotes e gerencie o tamanho das filas
+	- Aplique cadência, sincronize com o planejamento entre domínios
+	- Destrave a motivação intrínseca dos trabalhadores do conhecimento
+	- Decentralize a tomada de decisões
+  	
+  #As 12 etapas de implementação 
+    -Alcançar o momento de virada
+    -Treinar agentes de mudança ágeis e lean
+    -Treinar executivos, gerentes e líderes
+    -Criar um centro ágil e lean de excelência
+    -Identificar fluxos de valor e ARTs (Agile Release Trains)
+    -Criar o plano de implementação
+    -Ficar pronto para o lançamento do ART
+    -Treinar equipes e lançar o ART
+    -Orientar a execução do ART
+    -Lançar mais ARTs e fluxos de valor
+    -Ampliar o portfólio
+    -Dar apoio e melhorar
+  
+  
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Java : https://www.devmedia.com.br/encapsulamento-polimorfismo-heranca-em-java/12991
   -4 pilares OO : Abstração - construir classe apropriada concentrando no que ela importa para a determinada finalidade
@@ -381,7 +417,7 @@ a classes e objetos em projetos orientados a objeto.
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
 #Arquitetura nuvem
   
-  Api gateway -> Autenticação(OAuth2 Access) | Cache (Redis) 
+  Api gateway -> Autenticação(OAuth2 Access) | Cache (Redis ou DynamoDb[aws]) 
    .Kong
    .Kubernetes Ingress
    .Zuul
@@ -420,11 +456,45 @@ a classes e objetos em projetos orientados a objeto.
  
  
  
- 
- 
- 
- 
- 
+noSQL: Desnormalizado, não tem integridade e transacional flexivel
+   > Processamento Eficiente
+   > Paralelismo 
+   > Escalabilidade
+   > custo
+   
+   4 tipos de banco noSQL
+     - key-valeu kvp { Memoria, disco ou hibrido} (Redis, DynamoDb aws ou couchbase)
+	 - Colunas ordenadas - Usado em data wherehouse ( hypertable e apache hbase) 
+	 - Banco de dados de documentos (mongoDB) json
+	 - Banco de dados grafos (neo4j)
+	 
+   "mongoDB" 
+      Exemplos
+       -Sessões de usuários em aplicações web
+	   -Analise de series temporais
+	   -EHR (Eletronic Health Records)
+      
+	  -formato json - compato e legivel
+	  -Open source
+	  -multiplataforma
+	  -Escalável
+	  -permite documentos ninhados
+	  -indexados
+	  -não tem schema fixo
+	  -não tem integridade referencial
+	  
+      -Estrutura
+	    - Coleção (Tabela)
+		- Documento (linha)
+		- Campo (Coluna)
+      -Tipos
+	    - String
+		- Inteiro
+		- boolean
+		- Double
+		- Array
+		- timestamp
+		- Object
  
  
  
