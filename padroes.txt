@@ -41,7 +41,8 @@ https://k21.global/blog/guia-do-scrum-2020-novidades
                             ● Ordenar os itens do Product Backlog; e,
                             ● Garantir que o Product Backlog seja transparente, visível e compreensível
 	    3 Developers : criar qualquer aspecto de um Incremento utilizável a cada Sprint. (back,front,ux,teste,sup,infra...)
-	    [ Dentro de um Scrum Team, não há sub-times ou hierarquias ] 
+	    
+		[ Dentro de um Scrum Team, não há sub-times ou hierarquias ] 
 	    [ Multifuncionais ]
 	    [ Autogerenciáveis ]
 	    [ 10 a menos pessoas ]
@@ -52,14 +53,16 @@ https://k21.global/blog/guia-do-scrum-2020-novidades
 	    [ Cada evento no Scrum é uma oportunidade formal para inspecionar e adaptar os artefatos do Scrum]
 	.A Sprint
 	    [ Sprints são o coração do Scrum, onde ideias são transformadas em valor. ]
-	    Durante a Sprint:
+	   
+	   Durante a Sprint:
 			● Nenhuma mudança é feita que coloque em risco a meta da Sprint;
 			● A qualidade não diminui;
 			● O Product Backlog é refinado conforme necessário; e,
 			● O escopo pode ser esclarecido e renegociado com o Product Owner conforme mais é aprendido.   
 	.Sprint Planning
 	    [ Definir o trabalho a ser realizado na Sprint. Este plano resultante é criado pelo trabalho colaborativo de todo o Scrum Team.]
-	    3 Tópicos:
+	    
+		3 Tópicos:
 			1 Por que esta Sprint é valiosa?
 			2 O que pode ser feito nesta Sprint?
 			3 Como o trabalho escolhido será realizado?
