@@ -496,14 +496,44 @@ noSQL: Desnormalizado, não tem integridade e transacional flexivel
 		- timestamp
 		- Object
  
- 
- 
- 
- 
- 
- 
- 
- 
+      Comandos
+	     criar um banco : use dbExemplo
+		 Criar uma coleção(tabela) : db.createColletion("colecaoExemplo")
+		 show collection // lista a coleções
+		 Inserir um documento(linha) : db.colecaoExemplo.insert({ id: 1, nome: "nome Teste"})
+		 Inserir Vários documentos(linhas) : db.colecaoExemplo.insert([{ id: 1, nome: "nome Teste"},{ id: 2, nome: "nome Teste 2"}])
+			db.<coleção>.insert( json ) ou db.<coleção>.insert( [json,json] )
+		 atualizar
+			db.<coleção>.update({nome:"José"},{$set : {idade:29}})
+			save()
+			deleteOne()
+			deleteMany()
+			remove()
+			remover Coleção : db.<coleção>.drop()
+			 
+	     Consulta
+			db.<coleção>.find()  ou  db.<coleção>.find( {nome:"José"}) 
+			db.<coleção>.findOne() 
+			db.<coleção>.find().pretty() // todos em colunas 
+			db.<coleção>.find().limit(50) //retorna so 50 documentos
+		 $eq  > Igual a
+		 $gt  > Maior que 
+		 $gte > Maior ou igual que
+		 $lt  > Menor que
+		 $lte > Menor ou igual que
+		 $ne  > diferente de
+		 $in  > contém
+		 $nin > não contém
+		 $or  > ou
+			db.<coleção>.find( {nome:"José",idade: {$lte 12}}) 
+            db.<coleção>.find( {$or {nome:"José"},{nome:"Antonio"}}) 
+			db.<coleção>.find( {nome : {$in: ["José","Antonio"]}}) 
+		 projeção, retira as colunas da consulta se for 0
+		    db.<coleção>.find( {nome:"José"},{id: 0, data: 0}) 
+        ordenação
+		    db.<coleção>.find().sort({nome:1) //Crescente
+			db.<coleção>.find().sort({nome:-1) //Decrescente
+            db.<coleção>.find({idade: {$lte 12}}).sort({nome:1).limit(5)
  
  
 

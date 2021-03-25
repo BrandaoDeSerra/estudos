@@ -45,7 +45,6 @@ https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aw
       > Compute Optimized
       > Memory Optimized
       > Accelerated Computing
-      > Storage Optimized
 	-Volume EBS - Elastc Block Store - CAmado sobre o Hardware	
 	  > SSD Backed Provisioned IOPS (Solid State Drive)
 	  > SSD Backed General Prupose
