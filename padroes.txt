@@ -1,163 +1,4 @@
-#Managent 3.0
-  6 Visões
-    -Energizar pessoas
-    -Empoderar pessoas
-    -Alinhar restrições
-    -Desenvolver competências
-    -Aumentar as estruturas
-    -Melhorar tudo
 
-https://www.youtube.com/watch?v=EdYLDjeurVE Scrum Guide 2020
-https://k21.global/blog/guia-do-scrum-2020-novidades
-#SCRUM Novembro 2020 
-    .Scrum requer um "Scrum Master" para promover um ambiente:
-		1 Um "Product Owner" ordena o trabalho para um problema complexo em um "Product Backlog".
-		2 O "Scrum Team" transforma uma seleção do trabalho em um incremento de valor durante um "Sprint".
-		3 O "Scrum Team" e seus stakeholders "inspecionam" os "resultados" e se ajustam para o próximo Sprint.
-		4 Repita 
-	.Teoria do Scrum
-	   Scrum é baseado no empirismo e lean thinking. 
-	   Scrum emprega uma abordagem iterativa e incremental para otimizar a previsibilidade e controlar o risco. 
-	   Scrum combina quatro eventos formais para inspeção e adaptação
-       
-	   1 Transparência : O trabalho deve ser visível tanto para quem executa, quanto para quem recebe o trabalho. 
-       2 Inspeção : Os artefatos e o progresso em direção às metas acordadas devem ser inspecionados com frequência e diligência para detectar variações ou problemas. 
-       3 Adaptação : Scrum Team deve se adaptar no momento em que aprende algo novo por meio da inspeção. Tem quer ser auto-gerenciadas e empoderadas.  	 	
-    .Os Valores do Scrum (Scrum Team)
-       1 Compromisso  : Atingir seus objetivos e suportar uns aos outros
-	   2 Foco : O trabalho da Sprint para fazer o melhor progresso possível em direção a essas metas.
-	   3 Abertura : Sbertos quanto ao trabalho e os desafios.
-	   4 Respeito : Respeitam quanto a serem pessoas capazes e independentes, e são respeitados como tal pelas pessoas com quem trabalham.
-	   5 Coragem : Fazer a coisa certa e trabalhar em problemas difíceis	
-    .Scrum Team (A unidade fundamental do Scrum é um pequeno time de pessoas)
-	    1 Scrum Master  : -Responsável por estabelecer o Scrum conforme definido no Guia do Scrum.
-	                      -Responsável pela eficácia do Scrum Team
-	   					  -Líderes que servem ao Scrum Team, Product Owner e à organização como um todo.
-						   
- 	    2 Product owner : -Responsável por maximizar o valor do produto resultante do trabalho
- 	                      -Gerenciamento do Product Backlog 
- 	 					    ● Desenvolver e comunicar explicitamente a meta do produto;
-                            ● Criar e comunicar claramente os itens do Product Backlog;
-                            ● Ordenar os itens do Product Backlog; e,
-                            ● Garantir que o Product Backlog seja transparente, visível e compreensível
-	    3 Developers : criar qualquer aspecto de um Incremento utilizável a cada Sprint. (back,front,ux,teste,sup,infra...)
-	    
-		[ Dentro de um Scrum Team, não há sub-times ou hierarquias ] 
-	    [ Multifuncionais ]
-	    [ Autogerenciáveis ]
-	    [ 10 a menos pessoas ]
-	    [ Responsável pelas atividades relacionada ao produto desde a colaboração com stakeholder, verificação, manutenção, operação, experimentação, pesquisa, 
-	      desenvolvimento e qualquer outra coisa que possa ser necessária ]
-	    [ Responsável por criar um Incremento valioso e útil a cada Sprint ]
-	.Eventos Scrum 
-	    [ Cada evento no Scrum é uma oportunidade formal para inspecionar e adaptar os artefatos do Scrum]
-	.A Sprint
-	    [ Sprints são o coração do Scrum, onde ideias são transformadas em valor. ]
-	   
-	   Durante a Sprint:
-			● Nenhuma mudança é feita que coloque em risco a meta da Sprint;
-			● A qualidade não diminui;
-			● O Product Backlog é refinado conforme necessário; e,
-			● O escopo pode ser esclarecido e renegociado com o Product Owner conforme mais é aprendido.   
-	.Sprint Planning
-	    [ Definir o trabalho a ser realizado na Sprint. Este plano resultante é criado pelo trabalho colaborativo de todo o Scrum Team.]
-	    
-		3 Tópicos:
-			1 Por que esta Sprint é valiosa?
-			2 O que pode ser feito nesta Sprint?
-			3 Como o trabalho escolhido será realizado?
-    .Daily Scrum
-        [ Inspecionar o progresso em direção a Meta da Sprint e adaptar o Sprint Backlog conforme necessário, ajustando o próximo trabalho planejado.]	
-	    [ Evento de 15 minutos , todos os dias no mesmo horário e local]
-        [ Oque estou fazendo, bloqueios e realizado]
-	.Sprint Review 
-	    [ inspecionar o resultado da Sprint e determinar as adaptações futuras.]
-        [ apresenta os resultados de seu trabalho para os principais stakeholders e o progresso em direção a Meta do Produto é discutido.]
-    .Sprint Retrospective
-	    [ planejar maneiras de aumentar a qualidade e a eficácia. ]
-	    [ discute o que deu certo durante a Sprint, quais problemas encontraram e como esses problemas foram (ou não) resolvidos ]
-    .Scrum Artifacts 
-        [ representam trabalho ou valor ]
-	     ● Para o Product Backlog, é a Meta do produto.
-         ● Para o Sprint Backlog, é a Meta da Sprint.
-         ● Para o incremento, é a Definition of Done.
-    .Product Backlog 
-	    [ É uma lista ordenada e emergente do que é necessário para melhorar o produto. É a única fonte de trabalho realizado pelo Scrum Team.]
-       .Compromisso: Meta do Produto : A Meta do Produto descreve um estado futuro do produto que pode servir como um alvo para o Scrum Team planejar.
-	.Sprint Backlog 
-	    É composto pela 
-	      1 Meta da Sprint (por que): o conjunto de itens do Product Backlog selecionados para a Sprint (o que), bem como um plano de ação para entregar o Incremento (como).
-       .Compromisso: Meta da Sprint é criada durante o evento Sprint Planning e então adicionada ao Sprint Backlog. Conforme os Developers trabalham, eles mantêm a Meta da Sprint em mente.
-    .Incremento : Um incremento é um trampolim concreto em direção a Meta do produto. 
-	.Definição de Pronto : A Definição de Pronto é uma descrição formal do estado do Incremento quando ela atende às medidas de qualidade exigidas para o produto.
-	
-#CULTURA DEVOPS : cultura DevOps favorece a integração da equipe de desenvolvimento com a de operações. 
-                  Nessa cultura, as barreiras se desfazem e as equipes tornam-se uma, compartilhando processos, 
-				  ferramentas, recursos e responsabilidades para alcançarem, juntas, as metas e os objetivos organizacionais.
-
-#DDD - domein driven design (Mindset / abordagem)
-	Porque ? > Gap no software Logica de negócio complexa
-
-	Aplicado para software complexos (Estratégico[princípios e metodologias] e Tático)
-		- Foco nas partes essenciais
-		- Simplifica o problema
-Todos da equipe entendem o problema - o Negócio(Domínio) é o foco
- .Estratégias 
-   # Ubquitous(Unipresente) Language - Mesma linguagem para todos, equipe junta. -> *Domein Experts
-   # Bounded(Limitado) Context - Mapa - (Core, contexto principal, foco, esfroço maior)
- .Tecnincas
-   #MicroServices - fronteiras por domínio - O verdadeiro desafio da implementação baseada em microsserviços é a comunicação entre eles : Service Mesh
-     -Dominio entity isolado, não pode ter dependencia Externa
-     -DIP - Dependency inversion principle - Abstração interface - Arquitetura cebola
-     -Criar adapatadores
-     -Entidade com negocio contido
-     -Objeto de valore
-     -Encapsulamento
-     -Objeto rico vs Anemico
-     -Estorias do usuario
-     -Testes
-     -Factory
-     -Anti Corruption Layer 
-     -SOLID
-     -TDD
-     -Mensage queue
-
-https://www.atlassian.com/br/agile/agile-at-scale/what-is-safe
-SAFe - O Scaled Agile Framework® (SAFe®) é um conjunto de padrões de organização e fluxo de trabalho para implementar práticas ágeis em escala empresarial.
-
-  #Valores
-	- Alinhamento
-	- Qualidade integrada
-	- Transparência
-	- Execução do programa
-	- Liderança
-
-  #Princípios
-    - Levante uma visão econômica
-    - Aplicar o pensamento de sistemas
-    - Assuma a variabilidade; preserve as opções
-    - Crie de maneira incremental com ciclos rápidos e integrados de aprendizado
-	- Marcos base na avaliação do objetivo de sistemas de trabalho
-	- Visualize e limite o Trabalho em processo (WIP) reduza o tamanho dos lotes e gerencie o tamanho das filas
-	- Aplique cadência, sincronize com o planejamento entre domínios
-	- Destrave a motivação intrínseca dos trabalhadores do conhecimento
-	- Decentralize a tomada de decisões
-  	
-  #As 12 etapas de implementação 
-    -Alcançar o momento de virada
-    -Treinar agentes de mudança ágeis e lean
-    -Treinar executivos, gerentes e líderes
-    -Criar um centro ágil e lean de excelência
-    -Identificar fluxos de valor e ARTs (Agile Release Trains)
-    -Criar o plano de implementação
-    -Ficar pronto para o lançamento do ART
-    -Treinar equipes e lançar o ART
-    -Orientar a execução do ART
-    -Lançar mais ARTs e fluxos de valor
-    -Ampliar o portfólio
-    -Dar apoio e melhorar
-  
-  
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Java : https://www.devmedia.com.br/encapsulamento-polimorfismo-heranca-em-java/12991
   -4 pilares OO : Abstração - construir classe apropriada concentrando no que ela importa para a determinada finalidade
@@ -415,7 +256,7 @@ a classes e objetos em projetos orientados a objeto.
 		Protected Variations (ver Variações Protegidas).
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
-#Arquitetura nuvem
+#ARQUITETURA NUVEM
   
   Api gateway -> Autenticação(OAuth2 Access) | Cache (Redis ou DynamoDb[aws]) 
    .Kong
@@ -461,7 +302,23 @@ a classes e objetos em projetos orientados a objeto.
 	 - Update > PUT
 	 - Delete > DELETE
 
-	 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+MENSAGERIA
+  -AMQP
+  -assíncrono
+  -exchange 
+  -filas \ queue
+  
+  -producer \ publish -Broker
+  -binding            -Broker
+  -consumer
+  -subscribes
+  
+  - mensagem
+    -label
+	-payload
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=	
 noSQL: Desnormalizado, não tem integridade e transacional flexivel
    > Processamento Eficiente
    > Paralelismo 
