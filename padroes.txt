@@ -420,16 +420,16 @@ a classes e objetos em projetos orientados a objeto.
   Api gateway -> Autenticação(OAuth2 Access) | Cache (Redis ou DynamoDb[aws]) 
    .Kong
    .Kubernetes Ingress
-   .Zuul
+   .Zuul netflix / Spring cloud
    
   Load Balancer
-   . Ribbon
+   . Ribbon netflix / Spring cloud
    . Kubernetes Balance
    . API Publisher AWS
    
   Service Discovery 
     .API Microgateway AWS
-    .Eureka
+    .Eureka netflix / Spring cloud
     .Kubernetes DSN
   
   Kubernetes : Orquestração de Contêiner 
@@ -441,7 +441,7 @@ a classes e objetos em projetos orientados a objeto.
   Message Broker
     . kafka
     . wso2 message broker
-    . Rabbit
+    . RabbitQM
     . Pub/Sub GCP
     
   monitoramento 
@@ -455,7 +455,13 @@ a classes e objetos em projetos orientados a objeto.
   cluster - HDFS Hadoop Distributed File System (MapReduce e GoogleFS)
  
  
- 
+                Method
+  *http - Create > POST
+     - Read   > GET
+	 - Update > PUT
+	 - Delete > DELETE
+
+	 
 noSQL: Desnormalizado, não tem integridade e transacional flexivel
    > Processamento Eficiente
    > Paralelismo 
