@@ -304,22 +304,23 @@ a classes e objetos em projetos orientados a objeto.
 MENSAGERIA
   -AMQP
   -assíncrono
-  -Escalabilidade
-  -exchange 
-  -filas \ queue
+  -Escalabilidade 
   
-  -producer \ publish -Broker
-  -binding            -Broker
+  
+  -producer \ publish 
+  -exchange   -Broker
+  -binding    -Broker
+  -filas \ queue
   -consumer
   -subscribes
-  
-  -route keys
   
   -Direct
   -topic
   -fanout 
   
   -Excehnge types
+  
+  -route keys
   - mensagem
     -label
 	-payload
