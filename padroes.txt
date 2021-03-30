@@ -189,6 +189,12 @@ Exemplos:
 		}
 		
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+VO
+DTO
+DAO
+POJO
+TO
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software#:~:text=De%20acordo%20com%20o%20livro%3A%20%22Padr%C3%B5es%20de%20Projeto%3A%20solu%C3%A7%C3%B5es,s%C3%A3o%20divididos%20em%2024%20tipos.
 26 Padrões "GoF" organizados nas suas 3 famílias:
 
