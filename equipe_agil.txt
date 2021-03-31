@@ -101,26 +101,26 @@ https://k21.global/blog/guia-do-scrum-2020-novidades
 	Aplicado para software complexos (Estratégico[princípios e metodologias] e Tático)
 		- Foco nas partes essenciais
 		- Simplifica o problema
-Todos da equipe entendem o problema - o Negócio(Domínio) é o foco
- .Estratégias 
-   # Ubquitous(Unipresente) Language - Mesma linguagem para todos, equipe junta. -> *Domein Experts
-   # Bounded(Limitado) Context - Mapa - (Core, contexto principal, foco, esfroço maior)
- .Tecnincas
-   #MicroServices - fronteiras por domínio - O verdadeiro desafio da implementação baseada em microsserviços é a comunicação entre eles : Service Mesh
-     -Dominio entity isolado, não pode ter dependencia Externa
-     -DIP - Dependency inversion principle - Abstração interface - Arquitetura cebola
-     -Criar adapatadores
-     -Entidade com negocio contido
-     -Objeto de valore
-     -Encapsulamento
-     -Objeto rico vs Anemico
-     -Estorias do usuario
-     -Testes
-     -Factory
-     -Anti Corruption Layer 
-     -SOLID
-     -TDD
-     -Mensage queue
+	Todos da equipe entendem o problema - o Negócio(Domínio) é o foco
+	 .Estratégias 
+	   # Ubquitous(Unipresente) Language - Mesma linguagem para todos, equipe junta. -> *Domein Experts
+	   # Bounded(Limitado) Context - Mapa - (Core, contexto principal, foco, esfroço maior)
+	 .Tecnincas
+	   #MicroServices - fronteiras por domínio - O verdadeiro desafio da implementação baseada em microsserviços é a comunicação entre eles : Service Mesh
+		 -Dominio entity isolado, não pode ter dependencia Externa
+		 -DIP - Dependency inversion principle - Abstração interface - Arquitetura cebola
+		 -Criar adapatadores
+		 -Entidade com negocio contido
+		 -Objeto de valore
+		 -Encapsulamento
+		 -Objeto rico vs Anemico
+		 -Estorias do usuario
+		 -Testes
+		 -Factory
+		 -Anti Corruption Layer 
+		 -SOLID
+		 -TDD
+		 -Mensage queue
 
 https://www.atlassian.com/br/agile/agile-at-scale/what-is-safe
 SAFe - O Scaled Agile Framework® (SAFe®) é um conjunto de padrões de organização e fluxo de trabalho para implementar práticas ágeis em escala empresarial.
