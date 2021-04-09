@@ -1,0 +1,197 @@
+Tecnologia Java
+  - Linguagem JAVA
+  - Plataforma JAVA
+     -JRE
+       # JVM (Máquina Virtual Java)              
+	   # API (Interface Programming Application)
+     -JDK - Java Development Kit (Contem um JRE dentro)
+       # javac arquivo.java (compila, pra geração do bytecode)
+	   # java arquivo (Executa o bytecode)
+	   # javadoc
+	   # jar	
+     -JRE - Java Runtime Environment (JVM)
+       # class MeuPrograma 
+	   {
+          public static void main(String[] args) 
+	      {
+             System.out.println("Java!");
+          }
+       }
+     
+Caracteristicas
+  - WORA : Write Once, Run Anywhere ()
+  - Compilado(Bytecodes) e Interpretado(JVM-JRE)
+      # Arquivo.java (Fonte)
+	  # Arquivo.class (Bytecode)
+  - OO : Orientada a Objetos
+      # organizar e escrever menos código fonte
+	  # flexibilizando sua aplicação
+	  # encapsulando a lógica de negócios
+	  # polimorfismo das referências
+	    - override - mesmo metodos só quem em classes diferentes (extends)
+	    - overload - mesmo methodo só que com parâmetros diferentes
+	  # * Não Possue Herança múltipla * 
+	  # Herança(atributos,métodos e implementações) <> Interface (Metodos)
+	  
+  - Garbage Collector 
+  - JIT (Just-In-Time) Compilação de alto desempenho, já gera linguagem de máquina. Não precisa ser interpretado.
+  -Multi-Threaded
+  
+Sintaxe
+   - Case Sensitive
+   - identificadores (atributo,metodo,class,interaces,variáveis...)
+      1°: PODEM ser iniciados por "letras", "_" e "$") 
+      2º: Não pode iniciar com "números","-","@","#","%",... caracteres especiais...
+      3º: Não pode Palavras reservadas: class,boolean,new,private,double,int,interface,extends,instanceof...
+      4º: Literais predefinidos : true,false e null	 
+   - Comentários
+      1°: // comentário de linha
+	  2º: /* comentário de bloco */
+	  3º: /** comentário JAVADOC */
+   - Tipos primitivos (8 tipos primitivos) (A atribuições a ele, é por cópia e não por referencia)
+      - Tipo Boolean - (1 byte)
+         * boolean 
+	  - Tipos Numéricos
+	     - Tipos Integrais
+		    - Tipo Caractere
+			  * char    (inteiro 16 bits - 1 caracter : 'A' entre aspas simples '' ou 4 dígitos 0000 a 9999 hexadecimal)
+		    - Tipos Inteiros
+			  * byte    (inteiro 8bits)
+              * short   (inteiro 16bits)
+              * int     (inteiro 32bits)
+              * long    (inteiro 64bits)
+		 - Tipos Ponto Flutuante
+	       * float      (Ponto flutuante 32bits)
+           * double     (Ponto flutuante 64bits) 	  
+      
+   -String - É uma classe
+           - Suporte especial dado pela linguagem(pode ser usado como tipo primitivo)
+		   - É imutável
+   -StringBuffer (Mais performático)
+   
+   -ENUM
+   -Operadores Aritméticos : + , - , * , /  e % resto
+   -Operador relacional : > , < , >= , <= , ==  e != 
+   -Operador de concatenação : +  Conversão implícita pra string
+   -Operadores Booleanos : %% (and) e || (or)
+   -Atribuição : = , += , -+ , *= e /=
+   -Unários : ++ , -- , ! inverte a condição
+     - ++x - soma 1e depois atribui
+	 - x++ - atribui e depois soma 1
+   -Array (Vão de 0 a N-1)
+     - int[] idades;
+	 - idades = new int[10];
+   -Generics	 
+      -Collection (interface)
+        -List     (interface) (ArrayList implementação) Repete Elementos
+        -Set	  (interface) (HashSet implementação) Não repete
+      -Map        (interface) (HashTable e HashMap) 
+      *Vector e Hashtable são Thread safe	  
+Modificadores de Acesso
+     - Private   (SÃ³ visivel na class)
+     - public    (Qualquer lugar)
+     - protected (Mesmo Pacote )	
+     - friendly - Default ( Mesmo pacote , mas as classes extendidas não enxergam)
+	 - Abstract 
+	     - Classe não pode ser instanciada
+         - metodo tem que ser implementado pela classes filhas		 
+     - Static  
+	     # faz o atributo ou metodo serem da class e nao do Objeto(instancia)
+		 # Método Static são chamados diretos sem o new da class Classe.metodo()
+     - final   
+	     # torna o atributo uma constante
+         # metodo não pode ser redefinido(overide)
+         # class não pode ser estendidas		 
+Conversão de tipos **(cast)
+   - Precedência - Direita pra esquerda ( 6 + 5 +"texto" = 11texto)	 
+
+Throwable
+   -Exception
+     - SQLException
+     - RuntimeException  
+       - ArraIndexOutOfBoundsException
+	   - Nullpointer
+     - IOException
+	   -FileNotFoundException
+   -Erro
+   
+Arquivos java.io e java.util
+    --=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+	// Baixo niver
+	InputStream is = new FileInputStream("leitura.txt");
+	InputStreamReader isr = new InputStreamReader(is);
+	BufferedReader br = new BufferedReader(isr);
+
+	String s = br.readLine(); // primeira linha
+
+	while (s != null)
+	{
+	    System.out.println(s);
+	    s = br.readLine();
+	}
+
+	br.close();
+
+	//alto nÃ­vel
+	Scanner r = new Scanner(new FileInputStream("leitura.txt"));
+	while (r.hasNextLine())
+	{
+	    System.out.println(r.nextLine());
+	}
+	r.close();
+	//--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+	OutputStream os = new FileOutputStream("escrita.txt");
+        OutputStreamWriter osw = new OutputStreamWriter(os);
+        BufferedWriter bw = new BufferedWriter(osw);
+
+        bw.write("caelum");
+        bw.newLine();
+        bw.write("BrandÃ£o");
+        
+        bw.close();
+    --=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=	
+Thread
+  	
+	
+System.gc() 
+    -VocÃª nunca consegue forÃ§ar o Garbage Collector, mas chamando o mÃ©todo estÃ¡tico gc da classe System, 
+	 vocÃª estÃ¡ sugerindo que a Virtual Machine rode o Garbage Collector naquele momento. Se sua sugestÃ£o 
+	 vai ser aceita ou nÃ£o, isto depende de JVM para JVM, e vocÃª nÃ£o tem garantias. Evite o uso deste mÃ©todo. 
+	 VocÃª nÃ£o deve basear sua aplicaÃ§Ã£o em quando o Garbage Collector vai rodar ou nÃ£o.
+
+Finalizer
+    -A classe Object define tambÃ©m um mÃ©todo finalize, que vocÃª pode reescrever. Esse mÃ©todo serÃ¡ chamado no 
+     instante antes do Garbage Collector coletar este objeto. NÃ£o Ã© um destrutor, vocÃª nÃ£o sabe em que 
+	 momento ele serÃ¡ chamado. Algumas pessoas o utilizam para liberar recursos "caros" como conexÃµes, 
+	 threads e recursos nativos. Isso deve ser utilizado apenas por seguranÃ§a: o ideal Ã© liberar esses 
+	 recursos o mais rÃ¡pido possÃ­vel, sem depender da passagem do Garbage Collector.	
+	 
+	 
+Teclas de Atalhos
+ Ctrl + F11 roda a última classe que você rodou. Ã‰ o mesmo que clicar no Ã­cone verde que parece um botÃ£o de play na barra de ferramentas.
+ Ctrl + Espaço (Completa códigos)   
+ Ctrl + N (Criar novo)
+ Ctrl + 1 Aciona o quick fixes com sugestões para correção de erros.
+ Ctrl + 3 Aciona modo de descoberta de menu. 
+
+ Ctrl + shift + R   
+ Ctrl + shift + T
+ Ctrl + O Exibe um outline para rÃ¡pida navegaÃ§Ã£o
+ Ctrl + L (navega a linha)
+ Ctrl+ shift + K (Procura pelo texto selecionado)    
+
+ Ctrl + Shift + F Formata o cÃ³digo segundo as convenÃ§Ãµes do Java
+
+ Ctrl + Shift + L Exibe todos os atalhos possÃ­veis.
+	 
+Java
+Java AvanÃ§ado
+Java Web
+JPA / Hibernate
+Spring / CDI / EJB
+SOAP,WebServices,applet,messageria
+Design Paterns
+Eclipse AvanÃ§ado
+ant
+maven
+
