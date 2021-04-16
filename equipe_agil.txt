@@ -7,9 +7,107 @@
     -Aumentar as estruturas
     -Melhorar tudo
 
+O que é projeto: é um esforço temporário(início e fim) empreendido para criar um produto, serviço ou resultado exclusivo.
+
+O que é Agil: é liminar o desperdício, foco na qualidade. Não elimina o planejamento, foca na qualidade ao inves da velocidade.
+
+Tipos : Cascata: Uma fase so começa apos a conclusão da anterior, tem um escopo, conrongrama e custo ja definidos, mudanças não são bem vistas.
+        Agil: pequenas sprint, varios ciclos, interativo e incremental: muito complicado o cliente saber tudo que quer no início, software é intangivel.
+
+modelos cynefin(Conevim): um projeto é complexo ou compliado - Simples(Quadrante 1), complicado(Quadrante 2), complexo(Quadrante 3), caótico(Quadrante 4) e o central (Desordem)
+
+MVP - minimum viable product - Produto mínimo viável: para amebiente onde muda muito o escopo, 
+                                                      evita os grandes investimentos, 
+													  aceitação, 
+													  usabilidade
+                             - Perigo do MVP: Qualidade, erro na definição do MVP, tem que ser incremental. tem que entregar valor a cada entrega													   
+  Ciclo de 4 estágios
+  - Think it (Pense nisso)
+  - Build it (Construa isso)
+  - Ship it  (Entregue isso)
+  - Tweak it (Refine isso)
+
+Manifesto Ágil
+  -Valores ( 4 )
+     * Indivíduos e interações mais que processos e ferramentas
+	    -Processos se adaptam as equipes 
+	 * Software em funcionamento mais que documentação abrangente
+	    -Necessária e suficiente 
+	 * Colaboração com o cliente mais que negociação de Contratos
+	    - Não exite nós e eles, o cliente faz parte do nós. 
+	 * Responder a mudanças mais que seguir um plano
+	 
+  -Princípios ( 12 ) 
+     * Maior prioridade é satisfazer o cliente, através da entrega adiantada e contínua de valor 
+	 * Aceitar mudanças naturalmente, procesdos ágeis se adequam a mudanças, para tirar vantagens competitivas. Ciclos curtos de entrega.
+	 * Entregar de valor com frequencia(semanas ou meses)
+	 * Pessoas de Negocio e desenvolvedores, devem trabalhar juntos e diariamente(Garantir geração de velor)
+	 * Construir projetos com pessoas motivadas. Suporte necessario e confiança.
+	 * Metodo face to face, é o mais eficiente para transmitir informação..(Entonação, linguagem corporal ... )
+	 * Software funcional é a medida primaria de progresso.
+	 * Promover um ambiente sustentável, ritmo de todos os envolvidos.
+	 * Contínua atenção à excelencia tecnica e bom design, aumenta a agilidade.
+	 * Simplicidade, é a arte de maximizar a quantidade de trabalho que não precisou ser feito
+	 * As melhores arquitetura, requisitos e design, emergem de times outo-organizaveis
+	 * Em intervalos regulares, o time reflete como fica rmais efetivo, se ajustam e otimizam(melhoria contínua)
+
+Declaração de Interdependência: principios para outras situações fora do software.
+     * Aumentamos o retorno do investimento com entregas contínuas de valor, como foco
+	 * Resultados confiáveis envolvendo o cliente na interação frequente e compartilhada
+	 * Estamos preparados para as incertezas, administramos por meio de iterações, antecipações e adaptações.
+	 * Desencadeamos a criatividade e a inovação, os individuos são a real fonte de valor, criamos um ambiente onde eles podem fazer a diferênça.
+	 * Aumentamos o desempenho através da responsabilização do grupo pelos resultados e responsabilidade compartilhada.
+	 * Melhorar a eficácia e a confiabilidade por meio de estratégias, processos e práticas específicos para cada situação
+
+Lean Thinking(Pensar simples, enxuto)
+    - Eliminar desperdicios
+	  * Como melhorar o trabalho
+	  * Qual é o problema que precisamos Resolver
+	  * Como desenvolver pessoas
+	- Lean
+	   . Valor
+       . Fluxo de valor
+	   . Fluxo Contínuo
+	   . Produção puxada
+	   . Perfeição
+    - os desperdícios "Toyota"   	 
+        1) Alternacia demasiada entre tarefas, interrupições constante entre colegas
+		2) Código ou recurso não entregue
+		3) produção de recursos que ninguem usará
+		4) Reuniões desnecessaria, esforço extra para obter informações.
+		5) Espera pela revisão, testes e outros
+		6) Algoritmos complexos e desnecessários para resolver coisas simples
+		7) Bugs
+		8) Subutilização das capacidades dos desenvolvedores e micro gerenciamento
+
+Lean software de software   
+   1) Eliminar o desperdicio: não entrega valor, exforço para entregar valor
+      .Definição de pronto
+	  .funcionalidade extras
+	  .alternação de tarefas / multi tarefas
+	  .Gestão de comunicação
+	  .defeitos
+   2) Integrar Qualidade
+      .Inspeção antes de gerar o problema, prevenir
+	  .testes tem que previnir defeito, no início
+   3) Criar conhecimento
+   4) Adiar comprometimento
+   5) Entregar rápido
+   6) Respeitar as pessoas
+   7) otimizar o todo
+
+Scrum   
+  Como não são definidos os processos, ou seja, o passo a passo de criação de um produto, 
+  então não temos uma metodologia, e sim um framework
+
+produto: é um veículo para entregar valor, limite claro, clientes bem definidos.
+
++++ Iterativo se refere a ciclo, repetição.
++++ Interativo se refere a relacionamento, comunicação.
+
 https://www.youtube.com/watch?v=EdYLDjeurVE Scrum Guide 2020
 https://k21.global/blog/guia-do-scrum-2020-novidades
-#SCRUM Novembro 2020 
+#SCRUM Novembro 2020 - framework
     .Scrum requer um "Scrum Master" para promover um ambiente:
 		1 Um "Product Owner" ordena o trabalho para um problema complexo em um "Product Backlog".
 		2 O "Scrum Team" transforma uma seleção do trabalho em um incremento de valor durante um "Sprint".
@@ -18,22 +116,29 @@ https://k21.global/blog/guia-do-scrum-2020-novidades
 	.Teoria do Scrum
 	   Scrum é baseado no empirismo e lean thinking. 
 	   Scrum emprega uma abordagem iterativa e incremental para otimizar a previsibilidade e controlar o risco. 
-	   Scrum combina quatro eventos formais para inspeção e adaptação
-       
-	   1 Transparência : O trabalho deve ser visível tanto para quem executa, quanto para quem recebe o trabalho. 
-       2 Inspeção : Os artefatos e o progresso em direção às metas acordadas devem ser inspecionados com frequência e diligência para detectar variações ou problemas. 
-       3 Adaptação : Scrum Team deve se adaptar no momento em que aprende algo novo por meio da inspeção. Tem quer ser auto-gerenciadas e empoderadas.  	 	
+	   Scrum combina quatro eventos formais para inspeção e adaptação ( )
+    .3 Pilares do Scrum:
+		 1 Transparência : O trabalho deve ser visível tanto para quem executa, quanto para quem recebe o trabalho. 
+		 2 Inspeção : Os artefatos e o progresso em direção às metas acordadas devem ser inspecionados com frequência e diligência para detectar variações ou problemas. 
+		 3 Adaptação : Scrum Team deve se adaptar no momento em que aprende algo novo por meio da inspeção. Tem quer ser auto-gerenciadas e empoderadas.  	 	
     .Os Valores do Scrum (Scrum Team)
        1 Compromisso  : Atingir seus objetivos e suportar uns aos outros
 	   2 Foco : O trabalho da Sprint para fazer o melhor progresso possível em direção a essas metas.
-	   3 Abertura : Sbertos quanto ao trabalho e os desafios.
+	   3 Abertura : Abertos quanto ao trabalho e os desafios. 
 	   4 Respeito : Respeitam quanto a serem pessoas capazes e independentes, e são respeitados como tal pelas pessoas com quem trabalham.
 	   5 Coragem : Fazer a coisa certa e trabalhar em problemas difíceis	
     .Scrum Team (A unidade fundamental do Scrum é um pequeno time de pessoas)
 	    1 Scrum Master  : -Responsável por estabelecer o Scrum conforme definido no Guia do Scrum.
 	                      -Responsável pela eficácia do Scrum Team
 	   					  -Líderes que servem ao Scrum Team, Product Owner e à organização como um todo.
-						   
+						  -Guia / facilita e ensina as praticas do scrum 
+						  -Verifica os bloqueios da equipe
+						  -Coach, líder servidor
+						  -Treinar o time em auto gerenciamento
+						  -Conentração de incrementos de autovalor
+						  -Auxilia o product owner 
+						  -Ajudar a organização a promover o scrum
+						  
  	    2 Product owner : -Responsável por maximizar o valor do produto resultante do trabalho
  	                      -Gerenciamento do Product Backlog 
  	 					    ? Desenvolver e comunicar explicitamente a meta do produto;
@@ -41,6 +146,11 @@ https://k21.global/blog/guia-do-scrum-2020-novidades
                             ? Ordenar os itens do Product Backlog; e,
                             ? Garantir que o Product Backlog seja transparente, visível e compreensível
 	    3 Developers : criar qualquer aspecto de um Incremento utilizável a cada Sprint. (back,front,ux,teste,sup,infra...)
+		               trabalham nos itens do backlog
+					   autogerenciados
+					   não há trabalho individual
+					   evitar a mudança de membros do grupo
+					   auto-organizado
 	    
 		[ Dentro de um Scrum Team, não há sub-times ou hierarquias ] 
 	    [ Multifuncionais ]
@@ -49,38 +159,55 @@ https://k21.global/blog/guia-do-scrum-2020-novidades
 	    [ Responsável pelas atividades relacionada ao produto desde a colaboração com stakeholder, verificação, manutenção, operação, experimentação, pesquisa, 
 	      desenvolvimento e qualquer outra coisa que possa ser necessária ]
 	    [ Responsável por criar um Incremento valioso e útil a cada Sprint ]
-	.Eventos Scrum 
+   ----------------------------------------------------------------------------------------	
+	.Eventos Scrum - Cerimônias
 	    [ Cada evento no Scrum é uma oportunidade formal para inspecionar e adaptar os artefatos do Scrum]
-	.A Sprint
+		[ Transparência ]
+	    [ são eventos time boxing ]
+        [ war room - sala de guerra]		
+		
+	.A Sprint - coração do scrum {tempo: até 4 semanas}
 	    [ Sprints são o coração do Scrum, onde ideias são transformadas em valor. ]
-	   
+		[ Meta do Produto ]
+	    [ duração fixa ]
+		[ Sprint 0]
 	   Durante a Sprint:
 			? Nenhuma mudança é feita que coloque em risco a meta da Sprint;
 			? A qualidade não diminui;
 			? O Product Backlog é refinado conforme necessário; e,
 			? O escopo pode ser esclarecido e renegociado com o Product Owner conforme mais é aprendido.   
-	.Sprint Planning
+	
+	Eventos - formais para inspeção e adaptação 
+	1.Sprint Planning {tempo: até 8 horas}
 	    [ Definir o trabalho a ser realizado na Sprint. Este plano resultante é criado pelo trabalho colaborativo de todo o Scrum Team.]
 	    
 		3 Tópicos:
 			1 Por que esta Sprint é valiosa?
 			2 O que pode ser feito nesta Sprint?
 			3 Como o trabalho escolhido será realizado?
-    .Daily Scrum
+    2.Daily Scrum {tempo: 15 minutos}
         [ Inspecionar o progresso em direção a Meta da Sprint e adaptar o Sprint Backlog conforme necessário, ajustando o próximo trabalho planejado.]	
 	    [ Evento de 15 minutos , todos os dias no mesmo horário e local]
         [ Oque estou fazendo, bloqueios e realizado]
-	.Sprint Review 
+	3.Sprint Review {tempo: até 4 horas}
 	    [ inspecionar o resultado da Sprint e determinar as adaptações futuras.]
         [ apresenta os resultados de seu trabalho para os principais stakeholders e o progresso em direção a Meta do Produto é discutido.]
-    .Sprint Retrospective
+		[ É na Revisão da Sprint que obtemos o feedback sobre o produto. ]
+		[ São discutidos os resultados alcançados pelo time na Sprint que está terminando ]
+    4.Sprint Retrospective {tempo: até 3 horas}
 	    [ planejar maneiras de aumentar a qualidade e a eficácia. ]
 	    [ discute o que deu certo durante a Sprint, quais problemas encontraram e como esses problemas foram (ou não) resolvidos ]
-    .Scrum Artifacts 
+		[ Discussão do processo e práticas ]
+    x.Refinamento do backlog do produto
+	x.Reunião da Scrum de Scrums
+  ----------------------------------------------------------------------------------------    
+	.Scrum Artifacts 
         [ representam trabalho ou valor ]
-	     ? Para o Product Backlog, é a Meta do produto.
-         ? Para o Sprint Backlog, é a Meta da Sprint.
-         ? Para o incremento, é a Definition of Done.
+	     ? Para o Product Backlog, é a Meta do produto. Ele é dinâmico, compromisso pra meta do produto a ser alcançada
+         ? Para o Sprint Backlog(Pertence ao desenvolvedores), é a Meta da Sprint, itens do backlog do produto e outras tarefas/atividades, 
+         ? Para o incremento, é a Definition of Done. (Qualidade) transparência, testes, documentação da historia do usuário, homologação - Um Incremento é uma parte utilizável do produto final
+		 ! estorias do usuario
+		 ! quadro de tarefas 
     .Product Backlog 
 	    [ É uma lista ordenada e emergente do que é necessário para melhorar o produto. É a única fonte de trabalho realizado pelo Scrum Team.]
        .Compromisso: Meta do Produto : A Meta do Produto descreve um estado futuro do produto que pode servir como um alvo para o Scrum Team planejar.
@@ -90,6 +217,270 @@ https://k21.global/blog/guia-do-scrum-2020-novidades
        .Compromisso: Meta da Sprint é criada durante o evento Sprint Planning e então adicionada ao Sprint Backlog. Conforme os Developers trabalham, eles mantêm a Meta da Sprint em mente.
     .Incremento : Um incremento é um trampolim concreto em direção a Meta do produto. 
 	.Definição de Pronto : A Definição de Pronto é uma descrição formal do estado do Incremento quando ela atende às medidas de qualidade exigidas para o produto.
+	
+  -----------------------------------------------------------------------------------------------------------------------------------------------------
+                                        cronograma Planejamento Release
+                                               |                                                   Reuniões diárias    
+                                                                                                      |
+Meta do Produto > Roadmap do produto > Backlog do Produto > Reunião de Planejamento da Sprint > Criar Entregáveis  > Entregáveis aceitos  (Sprint de 4 semanas)
+                                                                     |                                |
+                                                              backlog da Sprint					Reunião de Revisão da Sprint
+                                                                                                      |															  
+	                                                                                            Reunião da Retropesctiva da Sprint
+    -----------------------------------------------------------------------------------------------------------------------------------------------------                                                                                          
+.Estoria do usuário
+  "Como um <tipo de usuário>
+  eu quero um <Objetivo>
+  para que <Atenda a uma necessidade>"
+  
+  Épicos tem várias historias : Os Épicos são escritos nas fases iniciais do projeto, 
+  quando a maioria das Estórias de Usuário são funcionalidades de alto nível ou descrições de produtos, 
+  e quando os requisitos são amplamente definidos. São Estórias de Usuário grandes e não refinadas 
+  no Backlog Priorizado do Produto. À medida que ganha prioridade, o épico ou parte dele evolui para 
+  Estórias de Usuário menores.
+  
+.Scrum board
+  Estórias do usuário
+  A fazer
+  Em andamento
+  Em teste
+  Pronto
+.Grafico de Burndown
+  .do produto (Sprint) 
+  .da Sprint (hora)  
+  
+Planejamento em camadas	
+	- Strategy
+	- Protifólio
+	- Produto
+	- Release
+	- iteração / Sprint
+	- Daily (15 min)
+	
+	
+Simulado =========================================================================================
+		
+Do Manifesto Ágil: Indivíduos e interações mais que processos e ferramentas. 
+                   Software em funcionamento mais que documentação abrangente. 
+                   Colaboração com o cliente mais que negociação de contratos. 
+                   Responder a mudanças mais que seguir um plano
+		
+Scrum é um framework estrutural que está sendo usado para gerenciar o trabalho em produtos complexos desde o início de 1990.				  
+
+O Guia do Scrum aborda tópicos tais como: valores, papéis, eventos e artefatos.
+
+Do Guia do Scrum: Scrum emprega uma abordagem iterativa e incremental para otimizar a previsibilidade e controlar o risco.
+
+Os papéis do Scrum são: Dono do Produto, Desenvolvedores e Scrum Master.	
+
+Os Scrum Teams são multifuncionais, o que significa que os membros possuem todas as habilidades necessárias para criar valor a cada Sprint. 
+Eles também são autogerenciáveis, o que significa que decidem internamente quem faz o quê, quando e como.
+
+Scrum Master atua como um coach, auxiliando o time a encontrar suas respostas e tirando os bloqueios. O Scrum Master não lidera a equipe tampouco a gerencia.
+
+Scrum Masters são verdadeiros líderes que servem ao Scrum Team e à organização como um todo.
+
+O Scrum Master serve ao Product Owner de diversas formas, incluindo:
+  ● Ajudar a encontrar técnicas para a definição eficaz de meta do Produto e gerenciamento do Product Backlog;
+  ● Ajudar o Scrum Team a entender a necessidade de itens do Product Backlog claros e concisos;
+  ● Ajudar a estabelecer o planejamento empírico do produto para um ambiente complexo; e,
+  ● Facilitar a colaboração dos stakeholders, conforme solicitado ou necessário.
+
+Os usuários Scrum devem, frequentemente, inspecionar os artefatos Scrum e o progresso em direção ao objetivo da Sprint para detectar variações indesejadas.
+
+Os Desenvolvedores entregam um incremento de funcionalidade do produto a cada Sprint.
+
+Não existe o papel de Project Manager. Os demais itens são elementos do Scrum.
+
+Do Guia do Scrum: O refinamento do Backlog do Produto é a ação de adicionar detalhes, estimativas e ordem aos itens no Backlog do Produto.
+
+***O refinamento do Backlog do Produto é a ação de adicionar detalhes, estimativas e ordem aos itens no Backlog do Produto.
+
+***Processos preditivos (ou definidos) exigem que todos os componentes do produto sejam definidos completamente logo no início do projeto.
+
+Uma Sprint começa com a Reunião de Planejamento.
+
+Durante a Sprint: NÃO são feitas mudanças que possam por em perigo o objetivo da Sprint; 
+                  As metas de qualidade não diminuem; e, o escopo pode ser clarificado e renegociado entre o Product Owner 
+				  e os Desenvolvedores quando mais for aprendido.	
+				  
+Sprints são o coração do Scrum, onde ideias são transformadas em valor. São eventos de duração fixa de um mês ou menos para criar consistência. 
+Uma nova Sprint começa imediatamente após a conclusão da Sprint anterior.				  
+
+O propósito da Daily Scrum é inspecionar o progresso em direção a Meta da Sprint e adaptar o Sprint Backlog conforme necessário, 
+ajustando o próximo trabalho planejado. A Daily Scrum é um evento de 15 minutos para os Developers do Scrum Team.
+
+Qualquer produto ou sistema deve ter uma definição de “Pronto” que é um padrão para qualquer trabalho feito sobre ele.
+
+É na Revisão da Sprint que obtemos o feedback sobre o produto. Na Revisão da Sprint é avaliado se as Metas foram alcançadas.
+
+No Scrum não existem indivíduos solitários. Ou todos vencem ou todos perdem. Equipe auto-organizadas são responsáveis pelo projeto 
+que estão executando. Assim, o Time Scrum é o responsável tanto pelo sucesso quanto pelo desastre de um projeto.
+
+A duração da Reunião da Sprint vai variar de acordo com o tamanho da Sprint. 
+Como não foi informado o tamanho da Sprint, não há como afirmar que essa reunião terá 2 sessões de 4 horas.
+
+No Backlog do Produto ficam armazenados todos os requisitos solicitados pelo cliente.
+O Backlog do Produto é dinâmico; mudando constantemente para identificar o que o produto necessita para ser mais apropriado, competitivo e útil.
+
+Um gráfico de burndown é uma representação gráfica do trabalho realizado e o que falta para ser feito dentro de um período de tempo. 
+O trabalho restante é geralmente no eixo vertical, com o tempo no eixo horizontal. 
+É útil para prever quando todo o trabalho será concluído, frequentemente usado em metodologias ágeis de desenvolvimento de software, como o Scrum.	
+
+Em projetos Scrum são sempre os membros do time que estabelecem o quanto de esforço será necessário para terminar uma tarefa. 
+Não adianta o Dono do Produto forçar uma estimativa.
+
+O Dono do Produto é o Responsável por alcançar o maior valor de negócio para o projeto, e também responsável pela coordenação das 
+necessidades dos clientes e pela manutenção da justificativa de negócio para o projeto. O Dono do Produto representa a voz do cliente.
+é o responsável pelo conteúdo do Backlog do Produto, bem como pela priorização de seus itens.
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+SBOK
+
+Declaração da visão do Projeto começa com o stakeholders
+Srpint de 1 a 6 semansa
+time de 6 a 10 membros
+Benefícios (Estado hiper-produtivo)
+  - Adaptabilidade, entrega interativa, projetos empiricos
+  - Foco no cliente, colaborativa
+  - Entrega Contínua de valor
+  - Entrega antecipada de alto valor 
+  - Feedback contínuo
+  - Tranparência
+  - Ambiente de alta confiança
+  - Ambiente de melhoria contínua
+  - Ritmo sustentável
+  - Processo de Desenvolvimento Eficiente
+  - Motivação do Time 
+  - Solução de problemas de forma rápida
+  - Entrega eficazes
+  - Responsabilidade Coletiva
+  - Alta velocidade
+  
+Escalável: Scrum de Scrums - Processo de convocar o Scrum de Scrums
+
+6 Princípios do Scrum:
+   .Desenvolvimento Iterativo
+   .Controle de processo "empírico(baseado na experiência e na observação, experimental, prático)"
+      -transparência > pilar do scrum
+	  -Adaptação > pilar do scrum
+	  -Inspeção > pilar do scrum
+   .auto-organização
+      -Inovação
+	  -Satisfeitos
+	  -Ambiente criativo
+   .Colaboração
+      -Consciência 
+	  -Articulação
+	  -Apropriação
+   .Priorização Orientada a Valor
+      -Entregar o maximo de valor de negócio
+   .time-boxing  
+
+5 Aspectos do Scrum
+   .Organização
+      > 2 Papeis 
+	    *Centrais(comprometidos)
+	       .Product owner
+		   .Scrum Master
+		   .Time Scrum
+		*Não-essenciais(pessoas envolvidas)
+		   .Partes interessadas - stakeholders, patrocinadores
+		   .Scrum guidance body - Especialista de negocio
+		   .Fornecedores - Organizações que fornecem serviço que não é foco do projeto
+		   .Dono do produto chefe  
+		   .Scrum master Chefe  
+	  > Responsabilidades
+   .Justificativa de negócio
+      >Entrega dirigida a valor : O ciclo do Scrum começa com uma Reunião do Stakeholder, durante o qual se cria a Visão do Projeto.
+   .Qualidade
+      > Critérios de aceitação 
+	  > Melhoria contínua
+	  > Desenvolvimento \ teste \ documentação } "Pronto"
+   .Mudança
+   .Risco
+      >Positivos - Oportunidade
+      >Negativo - Ameaça
+      >Plano de ação
+	  >Probabilidade
+	  >Impacto
+	  
+Artefatos do Scrum	  
+   .Declaração de visão do Projeto
+   .Backlog do Produto
+   .Backlog da Sprint
+   .Épicos
+   .Estória de Usuário   
+   .Grafico de Burndown - Sprint por horas
+   .Scrum Task board
+   
+Cerimônias(Eventos) do Scrum ( São time-boxing )  
+   .Sprint - de 1 a 6 semanas e com Metas
+   .Sprint Planning - 2h a cada semana de Sprint, 8h para cada 4 semanas de Sprint
+      -2 Duas etapas: 
+	    *Definição do Objetivo
+        *Estimativa de Trabalho
+      -Cria o backlog da Sprint		
+   .Daily Scrum - 15 minutos - Mesmo lugar e horário
+      - O que eu fiz 
+	  - o que eu fou vazer
+	  - Impedimentos
+   .Sprint Review - até 4 horas para sprint de 4 semanas
+   .Sprint Retrospective - até 4 horas para sprint de 4 semanas NÃO É TIME-BOXED)
+      -Processos
+	  -Ferramentas
+   .Refinamento do Packlog do Produto (NÃO É TIME-BOXED) - Product Owner
+
+5 Fases com 19 Processo
+    1ª Fase INICIAR
+      1 Criar a Visão do Projeto (Processo)
+      2 Identificar o Scrum Master e as Partes interessadas[stakeholders] (Processo)
+	  3 Formar Time Scrum
+	  4 Desenvolver os Épicos
+	  5 Criar o backlog priorizado do produto (Criterios de Pronto, refinamento dos épicos)
+	  6 Conduzir o Planejamento da Release (Revisa as estórias e duração das sprints)
+    2ª Fase PLANEJAR E ESTIMAR
+	  7 Criar as Estórias de Usuário
+	  8 Aprovar, Estimar e comprometer as estorias do usuario
+	  9 Criar as Tarefas
+	  10 Estimar as Tarefas
+	  11 Criar o Backlog da Sprint
+    3ª Fase IMPLEMENTAR
+	  12 Criar os entregáveis
+	  13 Conduzir a reunião diária
+	  14 Refinamento do backlog priorizado do produto
+    4ª Fase REVISÃO E RETROSPECTIVA
+	  15 Convocar o Scrum de Scrums
+      16 Demonstrar e validar a Sprint - Reunião da Sprint
+      17 Retrospectiva da Sprint (lições aprendidas)	  
+    5ª Fase RELEASE
+	  18 Envio de Entregáveis
+	  19 Retrospectiva do projeto (NÃO É TIME-BOXED)
+
+SIMULADO
+
+Uma vez estabelecido o time Scrum, deve-se manter a estabilidade dos seus membros durante toda 
+a duração do projeto, não alterando os membros, a menos que seja inevitável. Se novas habilidades 
+forem requeridas, o ideal é tentar desenvolvê-las internamente. Assim, motiva-se a equipe a sempre estar se aprimorando.
+
+A co-alocação (colocation) visa justamente minimizar a desconfiança entre os membros do time.
+
+A Vídeo-conferência não é citado no book - transparência
+
+Quem define os requisitos mínimos de qualidade e os padrões requeridos para todos os projetos da organização? 
+Essa é uma tarefa do Scrum Guidance Body (SGB) ou Corpo de Assessoramento do Scrum.
+
+Cronograme de planejamento da release: promove um fluxo fácil e transparente de informação por toda a organização. 
+A transparência é distribuída através de qual das seguintes práticas do Scrum? 
+
+Uma Sprint em andamento não deve ter seu escopo alterado. Se isso fosse possível, uma Sprint nunca 
+acabaria no tempo acordado. Se algo tiver que ser alterado, a Sprint é encerrada e uma nova deve ser iniciada.
+
+As dimensões principais do trabalho colaborativo são: 
+  • Consciência—Os indivíduos que trabalham juntos precisam estar cientes do trabalho um do outro. 
+  • Articulação—Os colaboradores devem dividir o trabalho em unidades, dividir as unidades entre os membros do time, e em seguida, assim que o trabalho for concluído, devem reintegrá-lo. 
+  • Apropriação—Adaptação de tecnologia para a própria situação; a tecnologia pode ser usada de uma maneira completamente diferente do que esperado pelos designers. 
+=========================================================================================
 	
 #CULTURA DEVOPS : cultura DevOps favorece a integração da equipe de desenvolvimento com a de operações. 
                   Nessa cultura, as barreiras se desfazem e as equipes tornam-se uma, compartilhando processos, 
