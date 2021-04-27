@@ -122,7 +122,7 @@ https://k21.global/blog/guia-do-scrum-2020-novidades
 		 2 Inspeção : Os artefatos e o progresso em direção às metas acordadas devem ser inspecionados com frequência e diligência para detectar variações ou problemas. 
 		 3 Adaptação : Scrum Team deve se adaptar no momento em que aprende algo novo por meio da inspeção. Tem quer ser auto-gerenciadas e empoderadas.  	 	
     .Os Valores do Scrum (Scrum Team)
-       1 Compromisso  : Atingir seus objetivos e suportar uns aos outros
+           1 Compromisso  : Atingir seus objetivos e suportar uns aos outros
 	   2 Foco : O trabalho da Sprint para fazer o melhor progresso possível em direção a essas metas.
 	   3 Abertura : Abertos quanto ao trabalho e os desafios. 
 	   4 Respeito : Respeitam quanto a serem pessoas capazes e independentes, e são respeitados como tal pelas pessoas com quem trabalham.
@@ -130,21 +130,21 @@ https://k21.global/blog/guia-do-scrum-2020-novidades
     .Scrum Team (A unidade fundamental do Scrum é um pequeno time de pessoas)
 	    1 Scrum Master  : -Responsável por estabelecer o Scrum conforme definido no Guia do Scrum.
 	                      -Responsável pela eficácia do Scrum Team
-	   					  -Líderes que servem ao Scrum Team, Product Owner e à organização como um todo.
-						  -Guia / facilita e ensina as praticas do scrum 
-						  -Verifica os bloqueios da equipe
-						  -Coach, líder servidor
-						  -Treinar o time em auto gerenciamento
-						  -Conentração de incrementos de autovalor
-						  -Auxilia o product owner 
-						  -Ajudar a organização a promover o scrum
+			      -Líderes que servem ao Scrum Team, Product Owner e à organização como um todo.
+			      -Guia / facilita e ensina as praticas do scrum 
+			      -Verifica os bloqueios da equipe
+			      -Coach, líder servidor
+			      -Treinar o time em auto gerenciamento
+			      -Conentração de incrementos de autovalor
+			      -Auxilia o product owner 
+			      -Ajudar a organização a promover o scrum
 						  
  	    2 Product owner : -Responsável por maximizar o valor do produto resultante do trabalho
  	                      -Gerenciamento do Product Backlog 
- 	 					    ? Desenvolver e comunicar explicitamente a meta do produto;
-                            ? Criar e comunicar claramente os itens do Product Backlog;
-                            ? Ordenar os itens do Product Backlog; e,
-                            ? Garantir que o Product Backlog seja transparente, visível e compreensível
+ 	 			 ? Desenvolver e comunicar explicitamente a meta do produto;
+                                 ? Criar e comunicar claramente os itens do Product Backlog;
+                                 ? Ordenar os itens do Product Backlog; e,
+                                 ? Garantir que o Product Backlog seja transparente, visível e compreensível
 	    3 Developers : criar qualquer aspecto de um Incremento utilizável a cada Sprint. (back,front,ux,teste,sup,infra...)
 		               trabalham nos itens do backlog
 					   autogerenciados
@@ -152,7 +152,7 @@ https://k21.global/blog/guia-do-scrum-2020-novidades
 					   evitar a mudança de membros do grupo
 					   auto-organizado
 	    
-		[ Dentro de um Scrum Team, não há sub-times ou hierarquias ] 
+	    [ Dentro de um Scrum Team, não há sub-times ou hierarquias ] 
 	    [ Multifuncionais ]
 	    [ Autogerenciáveis ]
 	    [ 10 a menos pessoas ]
@@ -177,19 +177,18 @@ https://k21.global/blog/guia-do-scrum-2020-novidades
 			? O Product Backlog é refinado conforme necessário; e,
 			? O escopo pode ser esclarecido e renegociado com o Product Owner conforme mais é aprendido.   
 	
-	Eventos - formais para inspeção e adaptação 
-	1.Sprint Planning {tempo: até 8 horas}
+    Eventos - formais para inspeção e adaptação 
+    1.Sprint Planning {tempo: até 8 horas}
 	    [ Definir o trabalho a ser realizado na Sprint. Este plano resultante é criado pelo trabalho colaborativo de todo o Scrum Team.]
-	    
 		3 Tópicos:
 			1 Por que esta Sprint é valiosa?
 			2 O que pode ser feito nesta Sprint?
 			3 Como o trabalho escolhido será realizado?
     2.Daily Scrum {tempo: 15 minutos}
         [ Inspecionar o progresso em direção a Meta da Sprint e adaptar o Sprint Backlog conforme necessário, ajustando o próximo trabalho planejado.]	
-	    [ Evento de 15 minutos , todos os dias no mesmo horário e local]
+	[ Evento de 15 minutos , todos os dias no mesmo horário e local]
         [ Oque estou fazendo, bloqueios e realizado]
-	3.Sprint Review {tempo: até 4 horas}
+    3.Sprint Review {tempo: até 4 horas}
 	    [ inspecionar o resultado da Sprint e determinar as adaptações futuras.]
         [ apresenta os resultados de seu trabalho para os principais stakeholders e o progresso em direção a Meta do Produto é discutido.]
 		[ É na Revisão da Sprint que obtemos o feedback sobre o produto. ]
@@ -197,25 +196,25 @@ https://k21.global/blog/guia-do-scrum-2020-novidades
     4.Sprint Retrospective {tempo: até 3 horas}
 	    [ planejar maneiras de aumentar a qualidade e a eficácia. ]
 	    [ discute o que deu certo durante a Sprint, quais problemas encontraram e como esses problemas foram (ou não) resolvidos ]
-		[ Discussão do processo e práticas ]
-    x.Refinamento do backlog do produto
+	    [ Discussão do processo e práticas ]
+    5.Refinamento do backlog do produto
 	x.Reunião da Scrum de Scrums
   ----------------------------------------------------------------------------------------    
-	.Scrum Artifacts 
+  .Scrum Artifacts 
         [ representam trabalho ou valor ]
 	     ? Para o Product Backlog, é a Meta do produto. Ele é dinâmico, compromisso pra meta do produto a ser alcançada
          ? Para o Sprint Backlog(Pertence ao desenvolvedores), é a Meta da Sprint, itens do backlog do produto e outras tarefas/atividades, 
          ? Para o incremento, é a Definition of Done. (Qualidade) transparência, testes, documentação da historia do usuário, homologação - Um Incremento é uma parte utilizável do produto final
 		 ! estorias do usuario
 		 ! quadro de tarefas 
-    .Product Backlog 
+    .#Product Backlog (comprometimento do artefatos Producto Go)
 	    [ É uma lista ordenada e emergente do que é necessário para melhorar o produto. É a única fonte de trabalho realizado pelo Scrum Team.]
-       .Compromisso: Meta do Produto : A Meta do Produto descreve um estado futuro do produto que pode servir como um alvo para o Scrum Team planejar.
-	.Sprint Backlog 
+        .Compromisso: Meta do Produto : A Meta do Produto descreve um estado futuro do produto que pode servir como um alvo para o Scrum Team planejar.
+    .#Sprint Backlog 
 	    É composto pela 
 	      1 Meta da Sprint (por que): o conjunto de itens do Product Backlog selecionados para a Sprint (o que), bem como um plano de ação para entregar o Incremento (como).
-       .Compromisso: Meta da Sprint é criada durante o evento Sprint Planning e então adicionada ao Sprint Backlog. Conforme os Developers trabalham, eles mantêm a Meta da Sprint em mente.
-    .Incremento : Um incremento é um trampolim concreto em direção a Meta do produto. 
+        .Compromisso: Meta da Sprint é criada durante o evento Sprint Planning e então adicionada ao Sprint Backlog. Conforme os Developers trabalham, eles mantêm a Meta da Sprint em mente.
+    .#Incremento : Um incremento é um trampolim concreto em direção a Meta do produto. 
 	.Definição de Pronto : A Definição de Pronto é uma descrição formal do estado do Incremento quando ela atende às medidas de qualidade exigidas para o produto.
 	
   -----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -428,7 +427,7 @@ Cerimônias(Eventos) do Scrum ( São time-boxing )
    .Sprint Review - até 4 horas para sprint de 4 semanas
    .Sprint Retrospective - até 4 horas para sprint de 4 semanas NÃO É TIME-BOXED)
       -Processos
-	  -Ferramentas
+      -Ferramentas
    .Refinamento do Packlog do Produto (NÃO É TIME-BOXED) - Product Owner
 
 5 Fases com 19 Processo
