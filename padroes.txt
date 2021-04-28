@@ -258,7 +258,13 @@ a classes e objetos em projetos orientados a objeto.
 		Pure Fabrication;
 		Indirection (ver Indireção);
 		Protected Variations (ver Variações Protegidas).
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
+-autenticação
+-autorização
+-gestão de dependencia
 
+gestão de mudança
+gestão de versionamento - CI ; CD
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
 #ARQUITETURA NUVEM
   
@@ -349,7 +355,7 @@ noSQL: Desnormalizado, não tem integridade e transacional flexivel
        -Sessões de usuários em aplicações web
 	   -Analise de series temporais
 	   -EHR (Eletronic Health Records)
-      
+    
 	  -formato json - compato e legivel
 	  -Open source
 	  -multiplataforma
