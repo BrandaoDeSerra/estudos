@@ -1,8 +1,38 @@
+  14h AWS Certified Cloud Practitioner
+OK  10h Amazon AWS Cloud Practitioner
+> 24h Practitioner
+
+  26h AWS Certified Solutions Architect Associate
+DOING  27h Amazon AWS Solutions Architect Associate
+> 52h Architect
+
+
+  32h AWS Certified Developer Associate
+  17h Amazon AWS Developer Associate
+> 49h Developer
+
+:125h Total *** "Estudo AWS"
+
+AWS
+GCP
+AZURE
+
+[08:55] Silveira De Lima, Emir
+dificil: https://www.udemy.com/course/practice-exams-aws-certified-cloud-practitioner/medio: https://www.udemy.com/course/aws-certified-cloud-practitioner-practice-exams-amazon/facil: https://www.udemy.com/course/aws-certified-cloud-practitioner-practice-test/
+Practice Exams | AWS Certified Cloud Practitioner CLF-C01
+Prepare the AWS Certified Cloud Practitioner CLF-C01. 390 unique high-quality test questions with detailed explanations!
+
+  
 
 #Planejamento
   *Curso teórico
   *Simulados
 https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aws-certified-cloud-practitioner-clf-c01-eede914a8ba9
+
+#Certificação AWS - Solutions Architect (SAA-C02)
+
+
+
 
 
 #Certificação AWS - Practitioner   
@@ -27,15 +57,24 @@ https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aw
         > SAAS -> Software como serviço 
 	-Cloud deployment
 	  >Public Cloud
-      >Hybrid
+      >Hybrid Cloud
 	  >Private Cloud
 	-AWS Services
 	  >Mais de 200 serviços
-	-AWS Global Infrastructure
+	-AWS Global Infrastructure 
 	  >Regions
-	  >Availability Zones
-	-Free tier - 12 Meses
-	
+	    >Availability Zones
+          >Local Zones
+          >Wavelength
+          >Outspots
+	-Free tier - 12 Meses, alguns Serviços limitados, horas por mês
+      > 12 months free :serviços free por 12 Meses e horas por mês
+      > Always free : recuros limitados
+      > Trials : teste Short-term
+  *Management Console
+     > Serviços diponíveis
+       Grupos 
+	     Serviços
   *Instancias EC2 - Elastic Compute 2
     -Máquinas virtuais
       >Virtualização : Hypervisor > hardware
@@ -65,48 +104,127 @@ https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aw
 	  > schedule
 	  > demand
 	  > predictive
-  *Storage S3 Simple Storage Service
-     -Bucket - url
+  *Storage S3 Simple Storage Service 
+      *Informações  
+         - Backup e Restauração de arquivo a qualquer momento
+         - Performance, Escalabilidade, disponibilidade e durabilidade
+         - 99,99999999999%  Durabilidade
+         - Tamanho máximo por arquivo 5 tera bytes)
+     -Bucket (nome único mundialmente)
+         - Object
+             informações: permições /access - ACL "Access list" por Arquivo 
+             -ARN Amazon Resource Name (como a aws ver seu arquivo)
+             -URI 
+             -Tag
+             -Object URL : Para acesso
      -Object base - files (Não é um bloco para instalar aplicativos) 
      -Paga pela tranferencia e pelo armazenamento
-	 -Storage Classes
+	 -Storage Classes 
+       informações: mover arquivos entre classes vc paga.
+                  : Propriedades
+                     - Versionamento do Arquivos (Enabled) nome igual, paga por armazenamento                   
+                     - Restore object - marker delete : Politicas para exclusão permantente  
+                  : permissões
+                     - ACL por Bucket > "Access list" 
+                  : metricas
+                  : gerenciamento 
+                     - Lifecycle Rules - transfer, delete objetos entre classes, via regras (paga essa transferência automatica por donwload)
+                     - Replicate / Backup : Baseado em regras
+                  : Access points
  	   > Standard *mais caro
-	   > Intellingent Teiring 
+	   > Intellingent Teiring *automaticamente ele classifica seus objetos
 	   > Standard-Infrequent Access (S3 Standard – IA)
 	   > S3 One Zone-Infrequent Access (S3 One Zone – IA)
-	   > Glacier
-	   > Glacier deep archive
-     -CloudFront
-	   >CDN (TTL)
-	    .Edge Location
-        .Origin
-   		.Distributon
-  *IAM - Identity Access Management (IAM)
+	   > Glacier              (Muito usado para backup) retrieval de 1min a 12h
+	   > Glacier deep archive (Muito usado para backup) retrieval >=12h para recuperar
+       > *OutPosts 
+     -Pricing
+       > Storage : valor do GB por region e mês
+       > Request & Data retrievals :
+       > Data Transfer :
+       > Management & Analytics :
+       > Replication :
+     -CloudFront = Serviço da web que acelera a distribuição do conteúdo estático e dinâmico da web, 
+                   como arquivos .html, .css, .js e arquivos de imagem
+       - CDN (Cloud Deliveru Network) TTL
+       - Replication
+         .Edge Location
+         .Origin
+   	  	 .Distributon
+       Informações : tratar o delay
+       - Replicação de dados de acordo com as requisições (Cache - lifetime)
+       - live stream / sites estáticos 
+       Tipos de distribuição
+         *RTMP : Real time messaging protocol videos e musicas
+         *WEB : live streaming http/https - Sites estáticos ou dinamicos 
+     -AWS Storage Gateway  - serviço para replicar os dados de um Data center próprio para o S3 via Web, VPC,Link Direto
+        informações: https://docs.aws.amazon.com/pt_br/storagegateway/latest/userguide/StorageGatewayConcepts.html
+        - File gateway: fotos, videos,pdf ... (NFS)
+        - Volume gateway: VMs, S.O., (iSCSI)
+        - Tape gateway: fitas de backup, arquivos de backup , VTL(disco) -> glacier 
+     -AWS Snowball -(Migration and Transfer) serviço para replicar os dados de um Data center próprio para o S3
+        *80TB
+        *Encryption
+        *10G de velocidade    
+     -AWS Snowball Edge
+        *100TB
+        *CPU
+        *Mountable and RACK
+        *Encryption 
+     -AWS Snow mobile
+        *100PB
+        *CPU
+        *Encryption 
+     -AWS Transfer Acceleration 
+        informações: Client -> server ja o CDN é Server > Client - link mais rápido
+     -AWS RRS -> S3 Reduced Redundancy Storage
+        informações: 99,99% durability mais baratos ( exemplos: thumbmail) 0,01% de perda por ano
+        400x maior que uma unidade comum de disco
+  *IAM - Identity Access Management (IAM) - Segurança(MFA - Multi factor Autentication), user, group, policy, role
      - Grupos
-	 - usuários
-	 - políticas
+	 - Usuários (2 tipos de usuários)
+        1) Console access (telas, management)
+        2) Programmatic access 
+           *Access key ID :
+           *Secret Access key :  
+	 * Roles: Regras 
+     * Policy: Políticas 
+  *AWS CLI - Command Line Interface
+     - aws configure command
+     - Software de aceeso a AWS (Access Key ID, secret access Key)
+     - command list 
+        : aws s3 cp --recursive uri_origem uri_destino
   *Billing e Pricing (cobrança por Segundos)
-     > Princípios
-	   - Pay as you go
-	   - Use
-	   - less/more
-	   - reserved less
+     > 3 tipos / bill : Ela cobra vc por 3 pontos
+	   - Compute
+	   - Storage
+	   - Transfer out, dados de saída, donwload	  
+     > Princípios / filosofia
+	   - Pay as you Go : pague conforme vc utiliza no final do mês, não precisa pagar antecipado
+	      *Pay for what you Use : Paga pelo que vc utiliza, exemplo: Maquina on pay 100%, instância off 70% less.
+	   - Pay less by using more : Pague menos usando mais
+	   - Pay Reserved less : melhor "Reserved" do que deixar em "on demand"
      > Capex vs Opex	
-	   > Capital Expenditure
-	   > Operational Expenditure
-	 > 3 tipos / bill
-	   > Compute
-	   > Storage
-	   > Transfer out
+	   - Capital Expenditure : Paga antes de Utilizar
+	   - Operational Expenditure : Paga conforme vc Utiliza
 	 > Budget vs Cost Explorer
-	   >Budget(orçamento) - Alertas - Antes
-	   >Cost Explorer - Depois - Relatório, detalhamento do gasto
-	 > Plans - suporte plans
+	   >Budget(orçamento) - Alertas, config limites valores - Antes que fature
+	   >Cost Explorer - Depois que faturou - Relatório, detalhamento do gasto
+     > AWS Organization ->  (DEV / TEST / PROD )
+       -Master Account / Adm Root
+       -Organizational Control Policy (OCP)         
+         -Organizational unit (OU) - Aqui tem "policy" 
+         -AWS Account (Contas)
+         -AWS Resources
+     > AWS Pricing Calculator	 
+       - Add services
+       - Configure (Estratégias / Necessidade)
+       - report Estimate
+     > Plans - suporte plans
 	   -Basic
 	   -Developer
 	   -Business
-	   -Enterprise     	 
-     > Pricing Calculator	 
+	   -Enterprise   
   *Security
     > Responsabilidade da AWS e Client
 	> WAF - Web Aplication Firewall
@@ -118,3 +236,8 @@ https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aw
 	> Athena(SQL busca) vs Macie (PII) - dados armazenados  
 
  
+
+https://aws.amazon.com/pt/s3/storage-classes/?nc=sn&loc=3
+https://docs.aws.amazon.com/pt_br/storagegateway/latest/userguide/StorageGatewayConcepts.html
+https://docs.aws.amazon.com/pt_br/snowball/latest/ug/whatissnowball.html
+https://aws.amazon.com/pt/s3/reduced-redundancy/
