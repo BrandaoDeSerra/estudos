@@ -1,17 +1,23 @@
-  14h AWS Certified Cloud Practitioner
-OK  10h Amazon AWS Cloud Practitioner
-> 24h Practitioner
+> 15h Scrum.org PMS I
+
+   14h AWS Certified Cloud Practitioner
+OK 10h Amazon AWS Cloud Practitioner
+>  24h Practitioner
 
   26h AWS Certified Solutions Architect Associate
-DOING  27h Amazon AWS Solutions Architect Associate
+DOING  27h Amazon AWS Solutions Architect Associate > 10h
 > 52h Architect
 
-
   32h AWS Certified Developer Associate
-  17h Amazon AWS Developer Associate
+DOING  17h Amazon AWS Developer Associate > 17h
 > 49h Developer
 
 :125h Total *** "Estudo AWS"
+
+***24h Cloud Guru - Accenture
+
+
+-=-=-=-=-=-=-=-=-=-=-=
 
 AWS
 GCP
@@ -22,20 +28,16 @@ dificil: https://www.udemy.com/course/practice-exams-aws-certified-cloud-practit
 Practice Exams | AWS Certified Cloud Practitioner CLF-C01
 Prepare the AWS Certified Cloud Practitioner CLF-C01. 390 unique high-quality test questions with detailed explanations!
 
-  
 
 #Planejamento
   *Curso teórico
   *Simulados
 https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aws-certified-cloud-practitioner-clf-c01-eede914a8ba9
 
-#Certificação AWS - Solutions Architect (SAA-C02)
+#Certificação AWS - Solutions Architect Associatet (SAA-C02)
+#Certificação AWS - Developer Associate
 
-
-
-
-
-#Certificação AWS - Practitioner   
+#Certificação AWS - Practitioner (CLF-C01)
 
   *Conceitos de Cloud
     -Vantagens
@@ -78,32 +80,71 @@ https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aw
   *Instancias EC2 - Elastic Compute 2
     -Máquinas virtuais
       >Virtualização : Hypervisor > hardware
-	-Types EC2
+    -VPC : Virtual Private Cloud: serviço que permite iniciar recursos da AWS em uma rede virtual isolada logicamente
+	-AMI : Amazon Machine Image : 
+    -Types EC2
 	  > Storage Optimized
       > General Purpose
       > Compute Optimized
       > Memory Optimized
       > Accelerated Computing
-	-Volume EBS - Elastc Block Store - CAmado sobre o Hardware	
-	  > SSD Backed Provisioned IOPS (Solid State Drive)
-	  > SSD Backed General Prupose
-	  > HDD Backed Throughput optimazed (Hard Disk Drive)
- 	  > HDD Backed Cold	  
-	-EC2 Princing
-      > $$$$ On Demand 
-	  > $$   Reserved [ Standard(no upgrade) / Convertable (Upgrade) ]
-	  > $ Spot Oferta
-	  > Dedicated Host [Hardware] { on demand / Reserved }
-    -Load Balance
-	  > *Application
-	  > Network
-	  > Classic
-	-Auto Sacaling
-      > All time	
-	  > Scale manually
-	  > schedule
-	  > demand
-	  > predictive
+      *Tipos de máquinas
+        C - Maquinas focadas em CPU
+        G - Maquina com melhor processamento de video / grafica
+        D - Dense Storege, servidores de arquivos
+        R - Memoria otimizadas
+        M - Maquina de uso Geral, normal
+        I - High speed storege -  banco de dados 
+        F - Programação
+        T - Webserver
+        P - GPU, mineração de dados, machile learning
+        X - Muita memória - Servidor apache
+	-Volumes EBS - Elastc Block Store - Camada sobre o Hardware	[Root divice type]
+	  > SSD Backed Provisioned IOPS (Solid State Drive) :
+	  > SSD Backed General Prupose :
+	  > HDD Backed Throughput optimazed (Hard Disk Drive) :
+ 	  > HDD Backed Cold	:  
+      tipo : SSD HDD  > IOPS Input/output per second | HDD 7200rpm - 100IOPS | SSD - 5000 a 100000IOPS
+       > $$$$$ GP2 : SSD -> 3k a 10k IOPS
+       > $$$$ Provisioned SSD (IO1) - Alta intensidade (mysql,sql...) : 10K IOPS, Max 20K IOPS
+       > $$$ ST1 : HDD - backup, logs, não roda SO(boot)
+       > $$ SC1 : Cold - acessos infrequnetes, backup, logs, não roda SO(boot)
+       > $ Magnetic : acessos infrequnetes mas aceita boot SO
+	-Volumes IS Instace Store (Old) [Root divice type] RAM
+      > Dados temporários
+      > Restart Terminate 
+    -EFS - Elastc File System for EC2
+      > pode ser acessado por 2 server ao mesmo tempo, em relação ao EBS
+      > ele é cobrado só pelo que é usado
+    -EC2 Princing - Planos
+      > $$$$ "On Demand" 
+	  > $$   "Reserved" [ Standard(no upgrade) / Convertable (Upgrade) ]
+	  > $    "Spot Instaces" oferta
+	  > $ "Dedicated Host" [Hardware] { on demand / Reserved }
+      > cobrança por Segundo, o mínimo é 60 segundos inicial.
+    -CloudWatch : 
+        > Monitorar Perefomenca (cpu,disco,memoria,network,IO)
+        > Autoscaling
+        > Elastic Load Balancer
+        > Route 53
+        > cloudfront(CDN) contudo estatico
+    -CloudTrail : Sistema de cameras
+        > monitora usuarios
+        > Criação de buckets
+        > Comandos digitados na CLI
+        > API 
+    -BootStrap Codes \ Comandos - rodar comendos enquantoa maquina é instanciada
+    -Metadata : CURL -  http://<ip>/latest/meta-data/
+    -Load Balance (x-forward for header, field header)
+	  > *Application : http e https > origem e destino pacote (Layer 7)
+	  > Network : TCP\TLS - network, portas, origem e destino (layer 4)
+	  > Classic : old  descontinuado, fazia os 2 ao mesmo tempo
+	-Auto Sacaling  : Grupo, alertas e regras\polices
+      > All time:	
+	  > Scale manually:
+	  > schedule:
+	  > demand:
+	  > predictive: 
   *Storage S3 Simple Storage Service 
       *Informações  
          - Backup e Restauração de arquivo a qualquer momento
@@ -180,6 +221,51 @@ https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aw
      -AWS RRS -> S3 Reduced Redundancy Storage
         informações: 99,99% durability mais baratos ( exemplos: thumbmail) 0,01% de perda por ano
         400x maior que uma unidade comum de disco
+  *SQS - Simple Queue Service - Mensageria
+     > Fila (pull base) pedir informação ao SQS
+        *Standart - tem Garatia de entrega, porem não é sequencial, a entrega pode ser duplicada.
+        *Fifo - Primeiro a entrar primeiro a sair :  
+     > Assíncrono, Escalabilidade \ Broker
+     > producer \ publish 
+     > consumer e subscribes
+  *SWF - Simple Workflow Service
+     > Automação de tarefas : integra aplicações por API, task ...
+  *SNS - Simple Notification Service (Alertas)
+     > Push, SMS, Email ...
+     > Pay as you go
+     > Tópicos
+  *Elastic Trascoder
+     > Coverte Video 
+  *Kinesis - Armazenar dados de Streaming
+     > Streaming -> recebe ou envia dados contínuos :Video, games, audio ...
+     >  producers -> Kinesis(Armanezar) <- Consumers
+     > Tipos: 
+       * Streams : Vai ser armazenado de 24h a 7 Dias (SHAD)
+       * Firehose : Não armazena os daos 0h
+       * Analytics : Análise dos 2 tipos anteriores
+  *Cognito (Web Identity Federation) - sign in sign on
+     > User pool - Autenticador
+     > Identity pool - Autorizador
+     > usa SNS - sincroniza todos os dispositivos
+  *API gateway (load balance para aplicação e não para trafego) 
+     >  Application programming Interface
+  *Serverless "Lambda"
+     > java,python,NodeJS,go,C# ...
+     > Price - 1 milhão de request(Acessos) free, > 1 milhão  $ 0,20 por milhão
+  *Route 53 (DNS - Domain Name Servers) : Criar e gerenciar domínios
+     > Criar, comprar, gerenciar domínios, políticas de segurança
+     > Redundancia de Localizações
+     > Failover 
+     > Tipos
+       * 
+       *
+       *
+       *       
+  *Cloudfront
+     >
+  *Cloud Formation : code template - instruções via codigo para criação e governança de serviços
+     > Script de execução para fazer ações na aws (Provider, s3, EC2,Rout 53,...)
+     > YAML ou JSON - linguagem de declaration
   *IAM - Identity Access Management (IAM) - Segurança(MFA - Multi factor Autentication), user, group, policy, role
      - Grupos
 	 - Usuários (2 tipos de usuários)
@@ -194,7 +280,7 @@ https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aw
      - Software de aceeso a AWS (Access Key ID, secret access Key)
      - command list 
         : aws s3 cp --recursive uri_origem uri_destino
-  *Billing e Pricing (cobrança por Segundos)
+  *Billing e Pricing (cobrança por Segundos) mínimo de 60 segundos
      > 3 tipos / bill : Ela cobra vc por 3 pontos
 	   - Compute
 	   - Storage
@@ -227,17 +313,30 @@ https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aw
 	   -Enterprise   
   *Security
     > Responsabilidade da AWS e Client
-	> WAF - Web Aplication Firewall
+    > WAF - Web Aplication Firewall
 	> Shield - Script ou DDOS(Distributed Denial of Service)
 	> AWS Security Services
 	  -Inspector - Agente instalado nas EC2 coleta dados
 	  -Trusted advisor - real time analisa estrutura e melhor praticas
 	  -Cloud trail - api calls / console
 	> Athena(SQL busca) vs Macie (PII) - dados armazenados  
-
+     
+  *Security Group - firewall (inbound / outbound) StateFull
+    >regras http,https, 
+    >protocol
+    >Prort
+    >Ip destination
  
+RDS Relacional
+DynamoDB NoSql
+...
+
 
 https://aws.amazon.com/pt/s3/storage-classes/?nc=sn&loc=3
 https://docs.aws.amazon.com/pt_br/storagegateway/latest/userguide/StorageGatewayConcepts.html
 https://docs.aws.amazon.com/pt_br/snowball/latest/ug/whatissnowball.html
 https://aws.amazon.com/pt/s3/reduced-redundancy/
+https://aws.amazon.com/pt/ec2/instance-types/
+https://aws.amazon.com/pt/ec2/pricing/on-demand/
+https://aws.amazon.com/pt/lambda/pricing/
+https://docs.aws.amazon.com/pt_br/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html
