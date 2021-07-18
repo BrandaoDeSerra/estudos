@@ -191,7 +191,7 @@ https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aw
        - Replication
          .Edge Location
          .Origin
-   	  	 .Distributon
+         .Distributon
        Informações : tratar o delay
        - Replicação de dados de acordo com as requisições (Cache - lifetime)
        - live stream / sites estáticos 
@@ -266,11 +266,13 @@ https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aw
        * Start of autorithy
        * Name Server
        * pointer
-  *Cloudfront
-     >
-  *Cloud Formation : code template - instruções via codigo para criação e governança de serviços
+  *VPC (Virtual private cloud) : 
+     > 
+  *Cloud Formation (gratuito): code template - instruções via codigo para criação e governança de serviços
      > Script de execução para fazer ações na aws (Provider, s3, EC2,Rout 53,...)
      > YAML ou JSON - linguagem de declaration
+     > Controle, gerenciamento,salvar versões de infra, da infra 
+     > Curso estimado
   *IAM - Identity Access Management (IAM) - Segurança(MFA - Multi factor Autentication), user, group, policy, role
      - Grupos
 	 - Usuários (2 tipos de usuários)
