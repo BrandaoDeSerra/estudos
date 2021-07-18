@@ -256,6 +256,7 @@ https://lucianolimasec.medium.com/como-me-preparei-para-ser-aprovado-no-exame-aw
      > Criar, comprar, gerenciar domínios, políticas de segurança
      > Redundancia de Localizações
      > Failover 
+     > Traffic Flow
      > Tipos
        * host A [A(ipv4) AAA(ipv6)]
        * Alias CNAME 
