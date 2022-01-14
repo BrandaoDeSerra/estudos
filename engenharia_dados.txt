@@ -1,69 +1,70 @@
+https://itforum.com.br/coluna/analista-engenheiro-e-cientista-de-dados-quem-e-quem-no-mundo-dos-dados/
 Engenheiro de dados 
 
-"É o profissional que desenvolve e opera e mantém estruturas de
-dados complexas e heterogêneas sendo o responsável pela segurança 
+"Ã‰ o profissional que desenvolve e opera e mantÃ©m estruturas de
+dados complexas e heterogÃªneas sendo o responsÃ¡vel pela seguranÃ§a 
 integridade disponibilidade e confiabilidade desses dados"
 
-  *Responsável por : 
+  *ResponsÃ¡vel por : 
   -Estruturas de dados da empresa.
     -Manter 
       .Disponibilidade
 	  .Confiabilidade
-	  .Segurança
+	  .SeguranÃ§a
 	  .Planejamento
 	  .monitoramento
 	-Desenvolver
 	  .DW data wherehouses
 	  .data lakes
-	  .Processos de análises batch
+	  .Processos de anÃ¡lises batch
 	  .Streaming
 	  .Processos de ETL e ELT
 	-Testar  
 	  .Performance
 	  .Requisitos Funcionais
-	  .Requisitos de governança de dados - Evitar o data swamp 
-	  .Segurança
+	  .Requisitos de governanÃ§a de dados - Evitar o data swamp 
+	  .SeguranÃ§a
     -Consolidar Extrair/Ingerir 
 	  .DW data wherehouses
 	  .Data lakes -  HDFS	  
     -Garantia da disponibilide
-	  .Segurança
+	  .SeguranÃ§a
 	  .Privacidade
 	  .Acesso
 	  .Monitoramento
-	  .Planos de contingência
+	  .Planos de contingÃªncia
   
 
-ETL : Extract, Transform and Load - Clássico Data Wherehouse
+ETL : Extract, Transform and Load - ClÃ¡ssico Data Wherehouse
 
-ELT : Extract, Load and Transform - Clássico Data Lake
+ELT : Extract, Load and Transform - ClÃ¡ssico Data Lake
 
 Metadados - Dados dos dados
  - Tipo
- - Precisão
- - Restrições
+ - PrecisÃ£o
+ - RestriÃ§Ãµes
  
 Conceitos:
   -Data at rest
   -Data at wire 
  
 sistemas orientados a colunas ou linhas
-  - Coluna - Maior compressão, melhor para leitura
-  - Linha - menor compressão, 
+  - Coluna - Maior compressÃ£o, melhor para leitura
+  - Linha - menor compressÃ£o, 
   
 Modelos de Dados
-  -Operacional (manter Operações) Orientado a Processo
+  -Operacional (manter OperaÃ§Ãµes) Orientado a Processo
     -Transacional/OLTP(Online Transaction Processing)
 	-SQL / NoSQL
-  -Analítico (Apoiar a Decisão) Orientado a Negócio
+  -AnalÃ­tico (Apoiar a DecisÃ£o) Orientado a NegÃ³cio
     -Data wherehouse  
     -Data lake 
 	-OLAP (Online Analytical Processing)
 	
 Teorema CAP 2/3
-  -Consistência
+  -ConsistÃªncia
   -Disponibilidade
-  -Partição Tolerante a Falhas  
+  -PartiÃ§Ã£o Tolerante a Falhas  
   
 Modelos dimencionais
   -Granulidade
